@@ -51,6 +51,9 @@ not just performance.
 - U.S. Dept. of Labor H1B disclosure data
 - Brookings Institution: "Immigrants in Tech: Pay Gaps and Systemic Barriers"
 - Migration Policy Institute: "Credential Recognition in the U.S. Labor Market"
+- [This report provides detailed statistics on the prevalence and wage outcomes of foreign-born STEM workers](https://ncses.nsf.gov/pubs/nsb20245/foreign-born-stem-workers)
+- [This comprehensive FAQ and data report provides up-to-date statistics on immigrant representation in high-wage tech jobs](https://www.thecgo.org/research/earnings-gap-dynamics-between-highly-educated-immigrants-and-us-born-counterparts-the-role-of-entry-visa/)
+- [Immigration Policy reforms needed to maximize gains](https://www.epi.org/publication/u-s-benefits-from-immigration/)
 
 ---
 
