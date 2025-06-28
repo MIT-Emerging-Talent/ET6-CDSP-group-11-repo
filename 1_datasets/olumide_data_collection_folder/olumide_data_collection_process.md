@@ -16,6 +16,7 @@ cause (event/events that occured during the timeline)
 - Is there a trend in age? affecting pay
 - Any relevant immigration policy change/event
 - How's AI impacting the way tech employees are hired
+- National trend compare to more specific local trend e.g usa vs sf
 
 ## Constraints
 
