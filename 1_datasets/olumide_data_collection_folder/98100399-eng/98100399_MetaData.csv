@@ -1,0 +1,343 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions",Universe,"Variable List"
+"Employment income statistics by visible minority, immigrant status, highest level of education and location of study: Canada, provinces and territories","98100399",,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=9810039901",,"CURRENT - a cube available to the public and that is current","Occasional","2021-01-01","2021-01-01","9","Population aged 15 years and over in private households, 2021 Census — 25% Sample data","Highest certificate, diploma or degree (16), Gender (3), Age (15A), Employment income statistics (7), Immigrant status (4A), Location of study (5), Major field of study - Classification of Instructional Programs (CIP) 2021 (14), Visible minority (15)"
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Correction Notes","Dimension Definitions"
+"1","Geography",,,""
+"2","Gender (3)",1;2,,""
+"3","Age (15A)",5,,""
+"4","Employment income statistics (7)",,,""
+"5","Immigrant status (4A)",10,,""
+"6","Location of study (5)",15,,""
+"7","Major field of study - Classification of Instructional Programs (CIP) 2021 (14)",17,,""
+"8","Highest certificate, diploma or degree (16)",21,,""
+"9","Visible minority (15)",28,,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Correction Notes","Member Geo Attribute Keys","Member Definitions"
+"1","Canada","[11124]","1","","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Newfoundland and Labrador","[10]","2","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Prince Edward Island","[11]","3","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Nova Scotia","[12]","4","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","New Brunswick","[13]","5","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Quebec","[24]","6","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Ontario","[35]","7","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Manitoba","[46]","8","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Saskatchewan","[47]","9","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Alberta","[48]","10","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","British Columbia","[59]","11","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Yukon","[60]","12","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Northwest Territories","[61]","13","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"1","Nunavut","[62]","14","1","",,,17;3;4;5;9;10;14;15;12;13;16;18,
+"2","Total - Gender","","1","","",,,,
+"2","Men+","","2","1","",3,,,
+"2","Women+","","3","1","",4,,,
+"3","Total - Age","","1","","",,,,
+"3","15 to 24 years","","2","1","",,,,
+"3","15 to 19 years","","3","2","",,,,
+"3","20 to 24 years","","4","2","",,,,
+"3","25 to 64 years","","5","1","",,,,
+"3","25 to 54 years","","6","5","",,,,
+"3","25 to 34 years","","7","6","",,,,
+"3","25 to 29 years","","8","7","",,,,
+"3","30 to 34 years","","9","7","",,,,
+"3","35 to 44 years","","10","6","",,,,
+"3","45 to 54 years","","11","6","",,,,
+"3","55 to 64 years","","12","5","",,,,
+"3","65 years and over","","13","1","",,,,
+"3","65 to 74 years","","14","13","",,,,
+"3","75 years and over","","15","13","",,,,
+"4","Total - Employment income statistics","","1","","",6;7;8;9,,,
+"4","With employment income","","2","1","",,,,
+"4","Median employment income ($)","","3","2","",,,,
+"4","Average employment income ($)","","4","2","",,,,
+"4","With wages, salaries and commissions","","5","1","",,,,
+"4","Median wages, salaries and commissions ($)","","6","5","",,,,
+"4","Average wages, salaries and commissions ($)","","7","5","",,,,
+"5","Total - Immigrant status","","1","","",11,,,
+"5","Non-immigrants and Immigrants","","2","1","",,,,
+"5","Non-immigrants","","3","2","",12,,,
+"5","Immigrants","","4","2","",13;14,,,
+"6","Total - Location of study","","1","","",16,,,
+"6","No postsecondary certificate, diploma or degree","","2","1","",,,,
+"6","Postsecondary certificate, diploma or degree","","3","1","",,,,
+"6","Location of study inside Canada","","4","3","",,,,
+"6","Location of study outside Canada","","5","3","",,,,
+"7","Total - Major field of study - Classification of Instructional Programs (CIP) 2021","","1","","",18,,,
+"7","No postsecondary certificate, diploma or degree","","2","1","",,,,
+"7","Education","","3","1","",,,,
+"7","Visual and performing arts, and communications technologies","","4","1","",,,,
+"7","Humanities","","5","1","",,,,
+"7","Social and behavioural sciences and law","","6","1","",,,,
+"7","Business, management and public administration","","7","1","",,,,
+"7","Physical and life sciences and technologies","","8","1","",,,,
+"7","Mathematics, computer and information sciences","","9","1","",,,,
+"7","Architecture, engineering, and related trades","","10","1","",,,,
+"7","Agriculture, natural resources and conservation","","11","1","",19,,,
+"7","Health and related fields","","12","1","",19,,,
+"7","Personal, protective and transportation services","","13","1","",,,,
+"7","Other","","14","1","",20,,,
+"8","Total - Highest certificate, diploma or degree","","1","","",22,,,
+"8","No certificate, diploma or degree","","2","1","",,,,
+"8","High (secondary) school diploma or equivalency certificate","","3","1","",23,,,
+"8","Postsecondary certificate, diploma or degree","","4","1","",,,,
+"8","Postsecondary certificate or diploma below bachelor level","","5","4","",,,,
+"8","Apprenticeship or trades certificate or diploma","","6","5","",,,,
+"8","Non-apprenticeship trades certificate or diploma","","7","6","",24,,,
+"8","Apprenticeship certificate","","8","6","",25,,,
+"8","College, CEGEP or other non-university certificate or diploma","","9","5","",26,,,
+"8","University certificate or diploma below bachelor level","","10","5","",,,,
+"8","Bachelor’s degree or higher","","11","4","",,,,
+"8","Bachelor's degree","","12","11","",,,,
+"8","University certificate or diploma above bachelor level","","13","11","",,,,
+"8","Degree in medicine, dentistry, veterinary medicine or optometry","","14","11","",,,,
+"8","Master's degree","","15","11","",,,,
+"8","Earned doctorate","","16","11","",27,,,
+"9","Total - Visible minority","","1","","",29;30,,,
+"9","Total visible minority population","","2","1","",31,,,
+"9","South Asian","","3","2","",,,,
+"9","Chinese","","4","2","",,,,
+"9","Black","","5","2","",,,,
+"9","Filipino","","6","2","",,,,
+"9","Arab","","7","2","",,,,
+"9","Latin American","","8","2","",,,,
+"9","Southeast Asian","","9","2","",,,,
+"9","West Asian","","10","2","",,,,
+"9","Korean","","11","2","",,,,
+"9","Japanese","","12","2","",,,,
+"9","Visible minority, n.i.e.","","13","2","",32,,,
+"9","Multiple visible minorities","","14","2","",,,,
+"9","Not a visible minority","","15","1","",33,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3901","Census of Population"
+
+"Note ID",Note
+1,"Gender  Gender refers to an individual's personal and social identity as a man, woman or non-binary person (a person who is not exclusively a man or a woman).   Gender includes the following concepts:   gender identity, which refers to the gender that a person feels internally and individually;   gender expression, which refers to the way a person presents their gender, regardless of their gender identity, through body language, aesthetic choices or accessories (e.g., clothes, hairstyle and makeup), which may have traditionally been associated with a specific gender.  A person's gender may differ from their sex at birth, and from what is indicated on their current identification or legal documents such as their birth certificate, passport or driver's licence. A person's gender may change over time.   Some people may not identify with a specific gender."
+2,"Given that the non-binary population is small, data aggregation to a two-category gender variable is sometimes necessary to protect the confidentiality of responses provided. In these cases, individuals in the category “non-binary persons” are distributed into the other two gender categories and are denoted by the “+” symbol."
+3,"This category includes men (and/or boys), as well as some non-binary persons."
+4,"This category includes women (and/or girls), as well as some non-binary persons."
+5,"Age    'Age' refers to the age of a person (or subject) of interest at last birthday (or relative to a specified, well-defined reference date)."
+6,"Employment income - All income received as wages, salaries and commissions from paid employment and net self-employment income from farm or non-farm unincorporated business and/or professional practice during the reference period. For the 2021 Census, the reference period for income data is the calendar year 2020, unless otherwise specified."
+7,"Wages, salaries and commissions - Gross wages and salaries before deductions for such items as income taxes, pension plan contributions and employment insurance premiums during the reference period. While other employee remuneration such as security options benefits, board and lodging and other taxable allowances and benefits are included in this source, employer's contributions to pension plans and employment insurance plans are excluded. Other receipts included in this source are military pay and allowances, tips, commissions and cash bonuses associated with paid employment, benefits from wage-loss replacement plans or income-maintenance insurance plans, supplementary unemployment benefits from an employer or union, research grants, royalties from a work or invention with no associated expenses and all types of casual earnings during the reference period."
+8,"The median income of a specified group is the amount that divides the income distribution of that group into two halves, i.e., the incomes of half of the units in that group are below the median, while those of the other half are above the median. Median incomes of individuals are calculated for those with income (positive or negative)."
+9,"Average income of a specified group is calculated by dividing the aggregate income of that group by the number of units in that group. Average incomes are calculated for those with income (positive or negative)."
+10,"Immigrant status  Immigrant status refers to whether the person is a non-immigrant, an immigrant or a non-permanent resident."
+11,"'Immigrant status' refers to whether the person is a non-immigrant, an immigrant or a non-permanent resident.   Non-permanent residents are included in 'Total - Immigrant status.' The category for 'Non-permanent residents' is not presented elsewhere in this table with income as they may not have a complete year of applicable income.   'Non-permanent residents' includes persons from another country with a usual place of residence in Canada and who have a work or study permit, or who have claimed refugee status (asylum claimants). Family members living with work or study permit holders are also included, unless these family members are already Canadian citizens or landed immigrants or permanent residents.   For more information on immigration variables, including information on their classifications, the questions from which they are derived, data quality and their comparability with other sources of data, please refer to the Place of Birth, Generation Status, Citizenship and Immigration Reference Guide, Census of Population, 2021."
+12,"'Non-immigrants' includes persons who are Canadian citizens by birth."
+13,"'Immigrants' includes persons who are, or who have ever been, landed immigrants or permanent residents. Such persons have been granted the right to live in Canada permanently by immigration authorities. Immigrants who have obtained Canadian citizenship by naturalization are included in this category. In the 2021 Census of Population, 'Immigrants' includes immigrants who were admitted to Canada on or prior to May 11, 2021."
+14,"In the 2021 Census of Population, the income data are available for the reference year 2019 and 2020. Immigrants who were admitted during or after the reference year are included in the category 'Immigrants' and may not have a complete year of applicable income."
+15,"Location of study  In the Census of Population, 'Location of study' refers to the province, territory or country of the institution from which a person obtained their highest certificate, diploma or degree.  Location of study refers to the location of the institution granting the certificate, diploma or degree, not the location of the person at the time they obtained the qualification or were attending the institution. The geographic location is specified according to boundaries current at the time the data are collected, not the boundaries at the time of study.  This variable indicates the province or territory (in Canada) or country (outside Canada) of the institution from which the highest postsecondary certificate, diploma or degree was obtained. It is only reported for individuals who had completed a certificate, diploma or degree above the high (secondary) school level.  This variable is reported for persons aged 15 years and over in private households."
+16,"For information on classification and data quality for this variable, refer to the Education Reference Guide, Census of Population, 2021, Catalogue no. 98-500-X2021013."
+17,"Major field of study (based on the Classification of Instructional Programs (CIP) Canada 2021)  Field of study refers to the discipline or area of learning or training associated with a particular course or program of study.  This 'Major field of study' variable refers to the predominant discipline or area of learning or training of a person's highest completed postsecondary certificate, diploma or degree, classified according to the Classification of Instructional Programs (CIP) Canada 2021.  This variable can be used either independently or in conjunction with the 'Highest certificate, diploma or degree' variable. When the latter is used with 'Major field of study,' it should be noted that different fields of study will be more common for different types of postsecondary qualifications. At the detailed program level, some programs are only offered at certain levels of education.  There was an explicit instruction in the questionnaire which instructed respondents to be as specific as possible in indicating a subfield or subcategory of specialization within a broad discipline or area of training.  This variable is reported for persons aged 15 years and over in private households."
+18,"This variable shows the 'primary groupings' variant of CIP. For more information on the CIP classification, see the Classification of Instructional Programs, Canada 2021: http://www.statcan.gc.ca/eng/concepts/classification. For information on classification and data quality for this variable, refer to the Education Reference Guide, Census of Population, 2021, Catalogue no. 98-500-X2021013."
+19,"Veterinary medicine, veterinary science, veterinary technology, and veterinary administrative support services, which were included in primary grouping 'Health and related fields' in CIP 2016, are now included in primary grouping 'Agriculture, natural resources and conservation' in CIP 2021. This reflects the structural change which moved them from series '51. Health professions and related programs' in CIP 2016 to series '01. Agricultural and veterinary sciences/services/operations and related fields' in CIP 2021."
+20,"Includes '30.00 Inclusive postsecondary education' and '30.99 Multidisciplinary/interdisciplinary studies, other'."
+21,"Highest certificate, diploma or degree  Highest certificate, diploma or degree is the classification used in the census to measure the broader concept of 'Educational attainment.'  This variable refers to the highest level of education that a person has successfully completed and is derived from the educational qualifications questions, which asked for all certificates, diplomas and degrees to be reported.  The general hierarchy used in deriving this variable (high school, trades, college, university) is loosely tied to the 'in-class' duration of the various types of education. At the detailed level, someone who has completed one type of certificate, diploma or degree will not necessarily have completed the credentials listed below it in the hierarchy. For example, a person with an apprenticeship or trades certificate or diploma may not have completed a high school certificate or diploma, nor does an individual with a 'master's degree' necessarily have a 'university certificate or diploma above bachelor level.' Although the hierarchy may not fit all programs perfectly, it gives a general measure of educational attainment.  This variable is reported for persons aged 15 years and over in private households."
+22,"For information on data quality for this variable, refer to the Education Reference Guide, Census of Population, 2021, Catalogue no. 98-500-X2021013."
+23,"'High (secondary) school diploma or equivalency certificate' includes only people who have this as their highest educational credential. It excludes persons with a postsecondary certificate, diploma or degree."
+24,"'Non-apprenticeship trades certificate or diploma' includes trades certificates or diplomas such as pre-employment or vocational certificates and diplomas from brief trade programs completed at colleges, institutes of technology, vocational centres and similar institutions. It also includes qualifications from vocational training programs in the province of Quebec such as the Diplôme d'études professionnelles (DEP)/Diploma of Vocational Studies (DVS)."
+25,"'Apprenticeship certificate' includes Certificates of Apprenticeship, Certificates of Qualification and Journeyperson's designations."
+26,"College, CEGEP and other non-university certificates and diplomas obtained from programs that are typically completed in less than 3 months are not included in this category."
+27,"'Earned doctorate' does not include honorary doctorates."
+28,"Visible minority  Visible minority refers to whether a person is a visible minority or not, as defined by the Employment Equity Act. The Employment Equity Act defines visible minorities as "persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in colour." The visible minority population consists mainly of the following groups: South Asian, Chinese, Black, Filipino, Arab, Latin American, Southeast Asian, West Asian, Korean and Japanese."
+29,""Visible minority" refers to whether a person is a visible minority or not, as defined by the Employment Equity Act. The Employment Equity Act defines visible minorities as "persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in colour." The visible minority population consists mainly of the following groups: South Asian, Chinese, Black, Filipino, Arab, Latin American, Southeast Asian, West Asian, Korean and Japanese.   In 2021 Census analytical and communications products, the term "visible minority" has been replaced by the terms "racialized population" or "racialized groups", reflecting the increased use of these terms in the public sphere."
+30,"For more information on visible minority and population group variables, including information on their classifications, the questions from which they are derived, data quality and their comparability with other sources of data, please refer to the Visible Minority and Population Group Reference Guide, Census of Population, 2021."
+31,"In 2021 Census analytical and communications products, the term "visible minority" has been replaced by the terms "racialized population" or "racialized groups", reflecting the increased use of these terms in the public sphere."
+32,"The abbreviation "n.i.e." means "not included elsewhere." This category includes persons who provided responses that are classified as a visible minority, but that cannot be classified with a specific visible minority group. Such responses include, for example, "Guyanese," "Pacific Islander," "Polynesian," "Tibetan" and "West Indian.""
+33,"In 2021 Census analytical and communications products, this category is referred to as "the rest of the population.""
+
+"Correction ID","Correction Date","Correction Note"
+"Dimension ID","Member ID","Attribute Key",Title,Label,"Long Label",Value
+1,1,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","3.1"
+1,1,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","01"
+1,1,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Country"
+1,1,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","Country"
+1,1,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","..."
+1,1,10,"PR_CODE","Province or territory geocode","Province or territory geocode","01"
+1,1,14,"DQF_NOTE","Data quality note","Data quality note","Excludes census data for one or more incompletely enumerated reserves or settlements."
+1,1,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Country"
+1,1,12,"GEO_NAME","Geography name","Geography name","Canada"
+1,1,13,"DQF_CODE","Data quality flag","Data quality flag","20000"
+1,1,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000011124"
+1,1,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","4.3"
+1,2,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","3.1"
+1,2,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","10"
+1,2,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,2,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,2,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","N.L."
+1,2,10,"PR_CODE","Province or territory geocode","Province or territory geocode","10"
+1,2,14,"DQF_NOTE","Data quality note","Data quality note","..."
+1,2,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,2,12,"GEO_NAME","Geography name","Geography name","Newfoundland and Labrador"
+1,2,13,"DQF_CODE","Data quality flag","Data quality flag","00000"
+1,2,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000210"
+1,2,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","4.4"
+1,3,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","2.4"
+1,3,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","11"
+1,3,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,3,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,3,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","P.E.I."
+1,3,10,"PR_CODE","Province or territory geocode","Province or territory geocode","11"
+1,3,14,"DQF_NOTE","Data quality note","Data quality note","..."
+1,3,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,3,12,"GEO_NAME","Geography name","Geography name","Prince Edward Island"
+1,3,13,"DQF_CODE","Data quality flag","Data quality flag","00000"
+1,3,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000211"
+1,3,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","3.2"
+1,4,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","2.9"
+1,4,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","12"
+1,4,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,4,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,4,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","N.S."
+1,4,10,"PR_CODE","Province or territory geocode","Province or territory geocode","12"
+1,4,14,"DQF_NOTE","Data quality note","Data quality note","..."
+1,4,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,4,12,"GEO_NAME","Geography name","Geography name","Nova Scotia"
+1,4,13,"DQF_CODE","Data quality flag","Data quality flag","00000"
+1,4,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000212"
+1,4,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","3.9"
+1,5,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","3.2"
+1,5,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","13"
+1,5,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,5,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,5,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","N.B."
+1,5,10,"PR_CODE","Province or territory geocode","Province or territory geocode","13"
+1,5,14,"DQF_NOTE","Data quality note","Data quality note","..."
+1,5,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,5,12,"GEO_NAME","Geography name","Geography name","New Brunswick"
+1,5,13,"DQF_CODE","Data quality flag","Data quality flag","00000"
+1,5,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000213"
+1,5,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","4.3"
+1,6,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","2.9"
+1,6,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","24"
+1,6,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,6,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,6,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","Que."
+1,6,10,"PR_CODE","Province or territory geocode","Province or territory geocode","24"
+1,6,14,"DQF_NOTE","Data quality note","Data quality note","Excludes census data for one or more incompletely enumerated reserves or settlements."
+1,6,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,6,12,"GEO_NAME","Geography name","Geography name","Quebec"
+1,6,13,"DQF_CODE","Data quality flag","Data quality flag","20000"
+1,6,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000224"
+1,6,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","3.7"
+1,7,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","2.8"
+1,7,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","35"
+1,7,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,7,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,7,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","Ont."
+1,7,10,"PR_CODE","Province or territory geocode","Province or territory geocode","35"
+1,7,14,"DQF_NOTE","Data quality note","Data quality note","Excludes census data for one or more incompletely enumerated reserves or settlements."
+1,7,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,7,12,"GEO_NAME","Geography name","Geography name","Ontario"
+1,7,13,"DQF_CODE","Data quality flag","Data quality flag","20000"
+1,7,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000235"
+1,7,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","3.8"
+1,8,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","3.5"
+1,8,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","46"
+1,8,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,8,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,8,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","Man."
+1,8,10,"PR_CODE","Province or territory geocode","Province or territory geocode","46"
+1,8,14,"DQF_NOTE","Data quality note","Data quality note","Excludes census data for one or more incompletely enumerated reserves or settlements."
+1,8,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,8,12,"GEO_NAME","Geography name","Geography name","Manitoba"
+1,8,13,"DQF_CODE","Data quality flag","Data quality flag","20000"
+1,8,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000246"
+1,8,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","5.6"
+1,9,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","4.5"
+1,9,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","47"
+1,9,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,9,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,9,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","Sask."
+1,9,10,"PR_CODE","Province or territory geocode","Province or territory geocode","47"
+1,9,14,"DQF_NOTE","Data quality note","Data quality note","Excludes census data for one or more incompletely enumerated reserves or settlements."
+1,9,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,9,12,"GEO_NAME","Geography name","Geography name","Saskatchewan"
+1,9,13,"DQF_CODE","Data quality flag","Data quality flag","20000"
+1,9,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000247"
+1,9,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","6.5"
+1,10,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","3.6"
+1,10,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","48"
+1,10,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,10,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,10,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","Alta."
+1,10,10,"PR_CODE","Province or territory geocode","Province or territory geocode","48"
+1,10,14,"DQF_NOTE","Data quality note","Data quality note","Excludes census data for one or more incompletely enumerated reserves or settlements."
+1,10,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,10,12,"GEO_NAME","Geography name","Geography name","Alberta"
+1,10,13,"DQF_CODE","Data quality flag","Data quality flag","20000"
+1,10,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000248"
+1,10,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","5.6"
+1,11,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","3.5"
+1,11,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","59"
+1,11,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,11,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","PR"
+1,11,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","B.C."
+1,11,10,"PR_CODE","Province or territory geocode","Province or territory geocode","59"
+1,11,14,"DQF_NOTE","Data quality note","Data quality note","Excludes census data for one or more incompletely enumerated reserves or settlements."
+1,11,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Province"
+1,11,12,"GEO_NAME","Geography name","Geography name","British Columbia"
+1,11,13,"DQF_CODE","Data quality flag","Data quality flag","20000"
+1,11,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000259"
+1,11,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","4.9"
+1,12,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","4.3"
+1,12,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","60"
+1,12,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,12,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","TERR"
+1,12,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","Y.T."
+1,12,10,"PR_CODE","Province or territory geocode","Province or territory geocode","60"
+1,12,14,"DQF_NOTE","Data quality note","Data quality note","..."
+1,12,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Territory"
+1,12,12,"GEO_NAME","Geography name","Geography name","Yukon"
+1,12,13,"DQF_CODE","Data quality flag","Data quality flag","00010"
+1,12,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000260"
+1,12,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","10.5"
+1,13,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","8.2"
+1,13,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","61"
+1,13,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,13,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","TERR"
+1,13,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","N.W.T."
+1,13,10,"PR_CODE","Province or territory geocode","Province or territory geocode","61"
+1,13,14,"DQF_NOTE","Data quality note","Data quality note","..."
+1,13,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Territory"
+1,13,12,"GEO_NAME","Geography name","Geography name","Northwest Territories"
+1,13,13,"DQF_CODE","Data quality flag","Data quality flag","00010"
+1,13,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000261"
+1,13,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","10.8"
+1,14,17,"TNR_SHORT_FORM","Short-form total non-response rate","Short-form total non-response rate","20.2"
+1,14,3,"ALT_GEO_CODE","Alternative geographic code","Alternative geographic code","62"
+1,14,4,"GEO_LEVEL_DESC","Geographic level","Geographic level","Province or territory"
+1,14,5,"GEO_TYPE_ABBR","Geographic area type abbreviation","Geographic area type abbreviation","TERR"
+1,14,9,"PROV_ABBR","Province or territory abbreviation","Province or territory abbreviation","Nvt."
+1,14,10,"PR_CODE","Province or territory geocode","Province or territory geocode","62"
+1,14,14,"DQF_NOTE","Data quality note","Data quality note","..."
+1,14,15,"GEO_TYPE_DESC","Geographic area type","Geographic area type","Territory"
+1,14,12,"GEO_NAME","Geography name","Geography name","Nunavut"
+1,14,13,"DQF_CODE","Data quality flag","Data quality flag","02020"
+1,14,16,"DGUID","Dissemination Geography Unique Identifier (DGUID)","Dissemination Geography Unique Identifier (DGUID)","2021A000262"
+1,14,18,"TNR_LONG_FORM","Long-form total non-response rate","Long-form total non-response rate","21.9"
+
+
+
+
+
+
+
+
+
