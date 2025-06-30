@@ -19,16 +19,19 @@ I extracted and cleaned three separate datasets:
 1. **Immigrants Visible Minorities Dataset**  
    - Contains data on visible minority populations in Canada **country of origin**.
    - Includes variables related to **education level** and **income brackets**.
+   - **Income is presented as a mean value** for each demographic group.
 
 2. **Non-Immigrants Dataset**  
    - Focuses on non-immigrant populations, but also includes visible minority info.
    - Includes similar variables: **education levels** and **income ranges**,
    enabling comparison with the visible minority dataset.
+   - **Income is presented as a mean value** for each demographic group.
 
 3. **Combined Immigrant/Non-Immigrant Dataset**  
    - Includes both immigrants and non-immigrants.
    - Focuses on **education levels** and the **industrial sectors**
    in which they are employed.
+   - **Income is presented as a mean and average value** for each group.
 
 ## Next Steps
 
