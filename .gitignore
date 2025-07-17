@@ -6,3 +6,4 @@ venv/
 *.idea
 *.ruff_cache
 1_datasets/employment_dataset.csv
+1_datasets/employment_dataset.csv
