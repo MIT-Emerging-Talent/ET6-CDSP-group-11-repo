@@ -1,43 +1,93 @@
-# Datasets
+# Datasets: Software Engineer Earnings Analysis
 
-## Olumide Data Collection
+This folder contains the **raw and processed datasets** used for our research:  
+**“What demographic factors influence median weekly earnings for software engineers in the U.S. tech industry?”**
 
-### QCEW Data Preparation Summary
+Our goal is to explore how demographic variables such as age, gender, race, and education correlate with wage outcomes for software engineers working in tech-focused industries across the U.S.
 
-[QCEW Annual Avg Wage Cleaning Folder](./Users/user/Documents/mit_stuff/CDSP_GROUP_11/ET6-CDSP-group-11-repo/1_datasets/olumide_data_collection_folder/annual_avg_wage)
+---
 
-I collected annual data for 2020–2024 from the U.S. Bureau of Labor Statistics
-Quarterly Census of Employment and Wages (QCEW). The dataset focuses on NAICS
-541511, representing custom computer programming services in the U.S., which
-broadly covers software engineering jobs. We downloaded separate CSV files for
-each year from 2020 to 2024.
+## Dataset Summary
 
-For each file, we added a `year` column to identify the calendar year, then
-combined all annual files into a single DataFrame. After combining, we checked
-the data's shape, columns, and missing values to ensure data integrity. We
-found no missing values in our key columns, which confirmed the data was
-reliable for analysis.
+| Filename                          | Description |
+|----------------------------------|-------------|
+| `software_engineers_acs.raw.csv` | Raw extract from IPUMS USA (ACS 2020–2023) containing individual-level microdata for U.S. software engineers |
+| `software_engineers_cleaned.csv` | Cleaned and filtered dataset for analysis — includes weekly earnings and selected demographic fields only |
+| `codebook.txt`                   | Metadata from IPUMS describing all variables and codes |
+| `variable_definitions.md`        | Human-readable summary of selected variables used in analysis |
 
-We then cleaned the dataset by removing irrelevant metadata columns.
-We kept only these relevant columns: `year`, `annual_avg_estabs`
-(the average number of establishments each year), `annual_avg_emplvl`
-(average number of employees each year), and `annual_avg_wkly_wage`
-(average weekly wage for employees each year). This simplified the dataset and
-made it directly aligned with our research goals.
+---
 
-This data is relevant because it provides authoritative information on
-employment levels and wage trends in the software engineering sector. It lets
-us observe how employment and wages evolved from before the pandemic through
-the post-pandemic tech boom and recent corrections. By tracking these variables
-across multiple years, we can identify trends that may reveal how the software
-engineering labor market has changed.
+## Source
 
-This matters to our research question because it allows us to analyze whether
-structural barriers, hiring trends, or broader economic cycles might affect
-early-career engineers, including recent immigrants. Our cleaned dataset
-provides a concrete basis for answering questions like whether there has been a
-slowdown in hiring, whether wages have stagnated or grown, and how industry
-dynamics may impact opportunities for junior engineers.
+- **Source**: [IPUMS USA](https://usa.ipums.org/usa/)
+- **Data**: American Community Survey (ACS) Public Use Microdata Sample (PUMS), 2020–2023
+- **Extraction Tool**: IPUMS online extract system
+- **License**: Public-use data provided by the U.S. Census Bureau and harmonized by the Minnesota Population Center
 
-You can explore the original data source at the Bureau of Labor Statistics
-[QCEW Data Viewer](https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=18&from=2020&to=2024&qtr=1&own=5&ind=541511&area=US000&supp=1)
+---
+
+## Variables Included
+
+The following variables were selected to support our analysis:
+
+- **OCC2010** – Occupation (filtered for code 1106: Software Developers)
+- **IND** – Industry (limited to tech-related codes: 7270, 7370, 7380, etc.)
+- **INCWAGE** – Annual income from wages
+- **UHRSWORK** – Usual hours worked per week
+- **WKSWORK1** – Weeks worked last year
+- **SEX**, **AGE**, **RACE**, **EDUC** – Demographic indicators
+- **EMPSTAT** – Employment status (filtered for employed individuals)
+- **CLASSWKR** – Class of worker (optional for public/private sector comparisons)
+
+---
+
+## File Usage Guidelines
+
+- **Do NOT modify** `software_engineers_acs.raw.csv`. This file is kept exactly as received from IPUMS to preserve data integrity and reproducibility.
+- Use `software_engineers_cleaned.csv` for all analysis and modeling. This file includes:
+  - Derived weekly earnings field
+  - Cleaned and renamed variables for clarity
+  - Filtered rows (only software engineers in tech)
+
+---
+
+## Data Types
+
+- **Quantitative (Continuous)**: Weekly earnings, age
+- **Quantitative (Discrete)**: Weeks worked, hours worked
+- **Qualitative (Categorical)**: Gender, race, education level, industry, occupation
+- **Structured format**: Tabular data (CSV files)
+
+---
+
+## Data Collection Method
+
+- **Secondary observational data**
+- Collected through the U.S. Census Bureau’s ACS annual surveys
+- Individuals self-report employment and income information
+- Harmonized by IPUMS for longitudinal and cross-sectional analysis
+
+---
+
+## Ethical Use
+
+This dataset contains **no personally identifiable information (PII)**. It is safe for public research. All analysis is conducted in line with the data use agreement from IPUMS USA.
+
+---
+
+## Future Use
+
+If time permits, we plan to expand the dataset by:
+- Incorporating more ACS years (e.g., 2015–2023) for trend analysis
+- Adding birthplace and citizenship fields to analyze immigrant status
+- Linking geographic indicators to explore regional wage variation
+
+---
+
+## Maintainer
+
+Olumide Kolawole  
+MIT ReAct Data Science Track  
+July 2025
+

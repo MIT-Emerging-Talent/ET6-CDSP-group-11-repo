@@ -1,154 +1,79 @@
-# Domain Research
+# Domain Study: Wage Disparities in U.S. Software Engineering
 
-## Milestone 1: Problem Identification - Progress Summary
+## Research Question
 
-## Repository Setup
+**What demographic factors influence median weekly earnings for software
+engineers in the U.S. tech industry?**
 
-- ✅ Project board created to track tasks and deliverables.
-- ✅ Branch protections implemented for collaboration integrity.
-- ✅ Pull request template added for consistent code reviews.
-- ✅ Milestones created and labeled according to CDSP phases (Milestone 0–5).
-
-## Collaboration Documents
-
-- ✅ `planning_docs/group_norms.md` outlines team expectations and shared values.
-- ✅ `planning_docs/constraints.md` defines our time zones, skills, and
-availability limitations.
-- ✅ `planning_docs/communication_plan.md` covers preferred communication
-tools and response times.
-- ✅ `planning_docs/learning_goals.md` captures our individual learning
-objectives and growth goals.
-
-## Contributor Guidelines
-
-- ✅ `CONTRIBUTING.md` file created with instructions for making contributions
-  and using GitHub responsibly.
-
-## Meeting Management
-
-- ✅ Regular meetings held and documented.
-- ✅ Meeting minutes recorded in `/retrospectives/` and regularly updated.
-- ✅ Google Meet sessions managed by Kervens, who also records meetings as needed.
-
-## Brainstorming & Problem Scoping
-
-- ✅ A `collaboration/` folder was created for divergent thinking.
-- ✅ Each member contributes their own `.md` file with preliminary research
-  questions and context.
-- ✅ Deadlines established for narrowing down to the top 3 research questions
-  and aligning on the final choice.
-
-## Retrospective
-
-- ✅ A retrospective file has been drafted to reflect on group dynamics, wins,
-and challenges for this milestone.
-
-## Git Tag
-
-- ✅ Talk to team about using git tag for features. They work like
-version control.
-
-## Tuesday Check in
-
-- Anna has volunteered to present for the group in class to share our progress
-with the team
-
-## Milestone 1: Problem Identification - Progress Summary 06/16/25
-
-## Investigating the Wage Gap Between Immigrants and Native Workers
-
-## Milestone 1: Domain Research and Problem Identification
-
-Here ia a current progress and framing work completed during **Milestone 1**,
-which focuses on domain research, initial scoping, and defining the core
-research problem. Our group is exploring early wage trajectories of immigrants
-compared to native-born workers, with an emphasis on identifying both
-personal and structural barriers that contribute to wage inequality.
+This project aims to explore how characteristics like gender, age, education,
+and race affect pay within a high-growth occupation like software engineering
+using publicly available U.S. Census data.
 
 ---
 
-## Group Research Overview
+## Why This Question?
 
-Our project explores the economic integration of immigrants in their first five
-years in the labor market, with a focus on wage trajectories compared to
-native-born workers of similar age, gender, and experience. Although we are
-still refining our final research question, the shared direction among all
-group members points toward understanding how both personal and structural
-factors shape wage growth for recent immigrants.
+Our initial goal was to explore wage disparities between **immigrant** and
+**native-born** software engineers. However, after examining data sources such
+as the Bureau of Labor Statistics (BLS) and the American Community Survey (ACS)
+we found that
+**immigration status is not directly reported at the occupation level in most datasets**.
 
-We are drawing from diverse backgrounds and research interests across U.S.
-and Canadian labor markets, with emphasis on sectors like tech, healthcare,
-and regulated professions.
-
-This inquiry sits at the intersection of labor economics, immigration policy,
-and wage equity, with relevance for policymakers, employers, advocacy groups,
- and immigrant communities.
+To make the project feasible within our timeline and toolset, we revised our
+research question to focus on
+**demographics that are more readily available and still meaningful**,
+while keeping the core theme of pay equity in tech.
 
 ---
 
-## Our (Evolving) Research Focus
+## Data Source and Feasibility
 
-The current guiding research question is:
+We are using **IPUMS USA**, which provides harmonized ACS microdata suitable
+for individual-level wage analysis. It allows us to filter for:
 
-**How and why do wage trajectories of employed immigrants diverge from those of
-comparable native-born workers during their critical first five years, and to
-what extent are these differences driven by modifiable human capital factors
-versus entrenched structural barriers within the labor market?**
+- **Software Engineers** using *OCC2010* codes
+- **Tech industry roles** using *IND* codes
+- **Earnings** via *INCWAGE*
+- **Demographics** like *SEX*, *RACE*, *AGE*, *EDUC*
 
-Group members are also exploring variants of this question based on geography,
-sector, and access to data:
-
-- **How do wage trajectories of recent immigrant software engineers differ
-from native-born peers in the U.S. tech industry, and what role do credentials,
-networks, and hiring practices play?**
-- **How does wage growth in the first five years after arrival compare between
-recent immigrants and native-born workers in Canada, accounting for gender,
-occupation, and education level?**
-
-We plan to converge toward a shared, scoped research question by Milestone 2.
+These variables are sufficient to explore our research question using Python
+for data science with straightforward filtering and cleaning processes.
 
 ---
 
-## Why This Matters
+## Key Concepts Covered in This Domain
 
-Immigrants often face an initial earnings disadvantage due to language
-barriers, unrecognized credentials, lack of local experience, and systemic
-bias. While many experience wage growth over time, these gains are uneven.
-Our project aims to unpack the wage gap patterns and the intersection of
-personal skill sets and structural labor market barriers.
-
-This research can inform:
-
-- Policy interventions around credential recognition and wage transparency
-- Targeted supports like mentorship or language programs
-- Employer best practices for hiring and promotion
+- **Occupational wage gaps**
+- **Workforce equity in STEM**
+- **Demographic trends in tech employment**
+- **Public microdata usage (ACS/IPUMS)**
+- **Measuring labor market outcomes**
 
 ---
 
-## Current Progress on Milestone 1
+## How This Can Scale
 
-We have made substantial headway on the required deliverables for Milestone 1:
+If time and resources allow, this research can be extended by:
 
-### ✅ Research & Framing Work
+- Including **foreign-born status** using *BPL* and *CITIZEN*
+- Comparing wage growth **over multiple years** using pooled ACS data (e.g., 2018–2023)
+- Adding geographic analysis (e.g., by region or metro area)
+- Conducting regression analysis to identify **statistical significance** of
+observed gaps
 
-- Individual domain research write-ups complete
-- Exploration of variables: visa status, credential type, industry, gender
-- Key constraints identified: data availability, definition of “comparable”
-experience, tracking wage growth over time
-
-### ✅ In Progress
-
-- Finalizing unified research question
-- Contributor guidelines and collaboration documents being edited and merged
-- Retrospective underway for Milestone 1
+These extensions would provide deeper insight into structural inequities in
+tech and inform policy or hiring practices.
 
 ---
 
-## Next Steps
+## Useful Resources and Notes
 
-- Confirm shared scope and narrow the research focus
-- Align on 1–2 datasets for cross-country or cross-sector analysis
-- Assign subgroups for thematic focus (e.g., credential bias, wage trends by gender)
-- Continue refining collaboration workflows and contribution tracking
+This folder contains:
 
----
+- Summaries of ACS and IPUMS variable definitions
+- Links to IPUMS documentation
+- Notes on industry codes relevant to tech
+- Definitions of *OCC2010* codes related to software development
+- Any external PDFs or articles that contextualize wage equity in tech
+
+For further exploration, see [IPUMS USA](https://usa.ipums.org/usa/) and [ACS PUMS](https://www.census.gov/programs-surveys/acs/microdata.html).
