@@ -1,9 +1,24 @@
-__pycache__
-*.pytest_cache
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.pytest_cache/
+*.ruff_cache/
+
+# Virtual environments
 venv/
+
+# Editor/IDE configs
+*.idea/
+
+# Environment variables
+# Uncomment if you use dotenv
 # .env
+
+# Local databases
 *.db
-*.idea
-*.ruff_cache
-*.DS_Store
+
+# macOS system file
+.DS_Store
+
+# Large dataset (excluded to avoid GitHub push failures)
 1_datasets/employment_dataset.csv
