@@ -1,29 +1,27 @@
 # Datasets: Software Engineer Earnings Analysis
 
 This folder contains the **raw and processed datasets** used for our research:  
-**“What demographic factors influence median weekly earnings for software engineers in the U.S. tech industry?”**
+**“What demographic factors influence median weekly earnings for software
+engineers in the U.S. tech industry?”**
 
-Our goal is to explore how demographic variables such as age, gender, race, and education correlate with wage outcomes for software engineers working in tech-focused industries across the U.S.
+Our goal is to explore how demographic variables such as age, gender, race,
+and education correlate with wage outcomes for software engineers working in
+tech-focused industries across the U.S.
 
 ---
 
 ## Dataset Summary
 
-| Filename                          | Description |
-|----------------------------------|-------------|
-| `software_engineers_acs.raw.csv` | Raw extract from IPUMS USA (ACS 2020–2023) containing individual-level microdata for U.S. software engineers |
-| `software_engineers_cleaned.csv` | Cleaned and filtered dataset for analysis — includes weekly earnings and selected demographic fields only |
-| `codebook.txt`                   | Metadata from IPUMS describing all variables and codes |
-| `variable_definitions.md`        | Human-readable summary of selected variables used in analysis |
-
----
+Upcoming..
 
 ## Source
 
 - **Source**: [IPUMS USA](https://usa.ipums.org/usa/)
-- **Data**: American Community Survey (ACS) Public Use Microdata Sample (PUMS), 2020–2023
+- **Data**: American Community Survey (ACS) Public Use Microdata
+Sample (PUMS), 2020–2023
 - **Extraction Tool**: IPUMS online extract system
-- **License**: Public-use data provided by the U.S. Census Bureau and harmonized by the Minnesota Population Center
+- **License**: Public-use data provided by the U.S. Census Bureau and
+harmonized by the Minnesota Population Center
 
 ---
 
@@ -38,17 +36,8 @@ The following variables were selected to support our analysis:
 - **WKSWORK1** – Weeks worked last year
 - **SEX**, **AGE**, **RACE**, **EDUC** – Demographic indicators
 - **EMPSTAT** – Employment status (filtered for employed individuals)
-- **CLASSWKR** – Class of worker (optional for public/private sector comparisons)
-
----
-
-## File Usage Guidelines
-
-- **Do NOT modify** `software_engineers_acs.raw.csv`. This file is kept exactly as received from IPUMS to preserve data integrity and reproducibility.
-- Use `software_engineers_cleaned.csv` for all analysis and modeling. This file includes:
-  - Derived weekly earnings field
-  - Cleaned and renamed variables for clarity
-  - Filtered rows (only software engineers in tech)
+- **CLASSWKR** – Class of worker (optional for public/private sector
+comparisons)
 
 ---
 
@@ -56,7 +45,8 @@ The following variables were selected to support our analysis:
 
 - **Quantitative (Continuous)**: Weekly earnings, age
 - **Quantitative (Discrete)**: Weeks worked, hours worked
-- **Qualitative (Categorical)**: Gender, race, education level, industry, occupation
+- **Qualitative (Categorical)**: Gender, race, education level, industry,
+occupation
 - **Structured format**: Tabular data (CSV files)
 
 ---
@@ -72,22 +62,16 @@ The following variables were selected to support our analysis:
 
 ## Ethical Use
 
-This dataset contains **no personally identifiable information (PII)**. It is safe for public research. All analysis is conducted in line with the data use agreement from IPUMS USA.
+This dataset contains **no personally identifiable information (PII)**.
+It is safe for public research. All analysis is conducted in line with the
+data use agreement from IPUMS USA.
 
 ---
 
 ## Future Use
 
 If time permits, we plan to expand the dataset by:
+
 - Incorporating more ACS years (e.g., 2015–2023) for trend analysis
 - Adding birthplace and citizenship fields to analyze immigrant status
 - Linking geographic indicators to explore regional wage variation
-
----
-
-## Maintainer
-
-Olumide Kolawole  
-MIT ReAct Data Science Track  
-July 2025
-
