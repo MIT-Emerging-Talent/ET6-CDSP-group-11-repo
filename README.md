@@ -1,12 +1,67 @@
-# About Confidence Crew
+# Software Engineer Earnings Analysis
 
-We are a collaborative team of Emerging Talent data scientists
-exploring real-world questions through data.  
-Our project will involve collecting, analyzing, and interpreting data
-to uncover meaningful insights on a topic that matters to us.
-Along the way, we'll focus on strengthening our technical skills,
-communication,
-and collaborative problem-solving.
+## Quick Links
+
+- [Dataset (Google Drive)](https://drive.google.com/file/d/13S9KWvOleAu-V_32Cpyrn8KHm1BnURN0/view?usp=sharing)
+- [Analysis Notebook](4_data_analysis/software_engineering_dataset_analysis.ipynb)
+- [Data Cleaning Process](2_data_preparation/employment_dataset_cleaning_script.ipynb)
+- [Dataset Documentation](1_datasets/DATA_SOURCE.md)
+
+## Project Overview
+
+This project analyzes demographic factors influencing software engineer earnings 
+in the U.S. tech industry. We explore patterns in wages across gender, education, 
+race, and age groups using statistical analysis.
+
+## Repository Structure
+
+```markdown
+├── 0_domain_study/          # Background research and problem definition
+├── 1_datasets/              # Data files and documentation
+├── 2_data_preparation/      # Data cleaning scripts
+├── 3_data_exploration/      # Initial data exploration
+├── 4_data_analysis/         # Statistical analysis and findings
+├── 5_communication_strategy/# Presentation and communication
+└── 6_final_presentation/    # Final results and presentation
+```
+
+## Getting Started
+
+### 1. Get the Data
+
+- Download the dataset from [Google Drive](https://drive.google.com/file/d/13S9KWvOleAu-V_32Cpyrn8KHm1BnURN0/view?usp=sharing)
+- Place it in the `1_datasets` directory
+
+### 2. Set Up Environment
+
+```bash
+python -m venv cdsp_env
+source cdsp_env/bin/activate  # On Windows: cdsp_env\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3. Run Analysis
+
+Open and run the notebooks in this order:
+
+1. [Data Cleaning](2_data_preparation/employment_dataset_cleaning_script.ipynb)
+2. [Data Exploration](3_data_exploration/explore_software_engineers_dataset.ipynb)
+3. [Statistical Analysis](4_data_analysis/software_engineering_dataset_analysis.ipynb)
+
+## Key Findings
+
+- Significant wage differences across demographic groups
+- Education level strongly correlates with earnings
+- Multiple factors contribute to wage disparities
+- See detailed results in the [analysis notebook](4_data_analysis/software_engineering_dataset_analysis.ipynb)
+
+## Contributors
+
+Team members from MIT Emerging Talent Program (CDSP Group 11)
+
+## License
+
+See [LICENSE](LICENSE) file for details
 
 ## Tools We Use
 
