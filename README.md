@@ -9,8 +9,10 @@
 
 ## Project Overview
 
-This project analyzes demographic factors influencing software engineer earnings 
-in the U.S. tech industry. We explore patterns in wages across gender, education, 
+This project analyzes demographic factors influencing software engineer
+earnings
+in the U.S. tech industry. We explore patterns in wages across gender,
+education,
 race, and age groups using statistical analysis.
 
 ## Repository Structure
