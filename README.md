@@ -5,7 +5,7 @@
 - [Dataset (Google Drive)](https://drive.google.com/file/d/13S9KWvOleAu-V_32Cpyrn8KHm1BnURN0/view?usp=sharing)
 - [Analysis Notebook](4_data_analysis/software_engineering_dataset_analysis.ipynb)
 - [Data Cleaning Process](2_data_preparation/employment_dataset_cleaning_script.ipynb)
-- [Dataset Documentation](1_datasets/DATA_SOURCE.md)
+- [Dataset Documentation](1_datasets/data_source.md)
 
 ## Project Overview
 
