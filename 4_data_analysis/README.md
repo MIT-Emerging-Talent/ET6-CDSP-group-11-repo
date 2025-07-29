@@ -94,6 +94,35 @@ to master’s or PhD shows **diminishing returns**.
 - Early education levels (e.g., high school or some college) show more
 **consistency** but lower ceilings.
 
+## Additional Gender & Race Wage Findings
+
+### Gender Wage Differences (No Education Control)
+
+- Men earn **on average $499 more per week** than women (**p < 0.001**).  
+- This represents roughly **23% higher earnings** for men compared to women.  
+- Gender alone explains **~1% of earnings variation (R² = 0.011)**, indicating
+that other factors (education, experience, location, industry) also strongly
+influence wages.
+
+### Gender Wage Differences by Education
+
+- **Gender wage gaps persist at most education levels**, with men generally
+earning more than women.  
+- At **Bachelor** and **Graduate+** levels, men’s earnings are substantially
+higher, while some lower education levels (e.g., Grade 9) show unexpected
+patterns likely due to small sample sizes.  
+- The interaction between **education and gender** is statistically significant,
+indicating that **returns to education differ by gender**.
+
+### Race and Education Interactions
+
+- Education raises earnings across all race groups, but **returns vary by race**.
+- Some groups (e.g., “Other race”, “Three+ races”) show unusually high earnings
+in specific categories, likely due to **small sample sizes or outliers**.  
+- No strong statistical evidence was found that race alone changes the effect
+of education dramatically, but outlier patterns suggest further investigation
+is needed.
+
 ---
 
 ## Interpretation and Relevance
@@ -125,3 +154,5 @@ if library issues are resolved.
 ## Scripts and Notebooks
 
 `/ET6-CDSP-group-11-repo/4_data_analysis/software_engineering_dataset_analysis.ipynb`
+`/ET6-CDSP-group-11-repo/4_data_analysis/educ_gender_analysis.ipynb`  
+`/ET6-CDSP-group-11-repo/4_data_analysis/gender_analysis.ipynb`
