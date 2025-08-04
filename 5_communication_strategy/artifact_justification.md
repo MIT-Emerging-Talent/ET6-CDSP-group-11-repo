@@ -2,9 +2,9 @@
 
 ## Chosen Medium: Quick Start Action Guide
 
-### Why This Format Works Best for Our Audience
+### Why This Format Works Best for Our Audiences
 
-#### Tech Leaders Need Practical Tools, Not Just Information
+#### Primary Audience: Tech Leaders Need Practical Tools
 
 Our primary audience consists of engineering managers, CTOs, and HR
 professionals who are:
@@ -13,6 +13,15 @@ professionals who are:
 - Comfortable with data but need actionable next steps  
 - Responsible for making immediate decisions with budget implications
 - Looking for concrete ways to address equity issues
+
+#### Secondary Audience: Students Need Career Planning Insights
+
+Students, particularly those considering software engineering careers:
+
+- Want data-driven career path insights
+- Need to understand salary negotiation leverage points
+- Benefit from understanding industry compensation patterns
+- Can use findings to make informed education/specialization choices
 
 ### Design Principles Applied
 
@@ -72,12 +81,15 @@ process
 - Tech leaders download and share the guide
 - Companies begin basic pay audits
 - HR teams request training on structured processes
+- Students access career planning resources
 
 **Short-term (1-3 months):**
 
 - Implementation of salary band structures
 - Adoption of structured interview processes  
 - Initial improvements in obvious pay disparities
+- Student engagement with salary negotiation resources
+- Integration into university career counseling materials
 
 **Long-term (6-12 months):**
 
