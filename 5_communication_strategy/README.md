@@ -16,7 +16,8 @@ Our analysis revealed:
 - **Education returns** show diminishing effects at higher levels
 - **Racial disparities** exist but vary significantly across groups
 - **Career progression** patterns differ by demographic characteristics
-- **Outlier sensitivity** - findings remain robust after removing extreme values
+- **Outlier sensitivity** - findings remain robust after removing extreme
+values
 
 ## Target Audience Analysis
 
@@ -56,16 +57,20 @@ Our analysis revealed:
 
 ### What we want them to learn
 
-1. **Scope of the problem** - Wage gaps are statistically significant and persistent
+1. **Scope of the problem** - Wage gaps are statistically significant and
+persistent
 2. **Complexity factors** - Multiple variables interact to create disparities
-3. **Business impact** - Talent retention, legal risks, and company reputation implications
-4. **Actionable solutions** - Specific, evidence-based interventions they can implement
+3. **Business impact** - Talent retention, legal risks, and company reputation
+implications
+4. **Actionable solutions** - Specific, evidence-based interventions
+they can implement
 
 ### How we want them to act
 
 1. **Immediate actions** - Conduct internal pay equity audits
 2. **Short-term changes** - Implement structured compensation frameworks
-3. **Long-term strategy** - Develop comprehensive diversity and inclusion programs
+3. **Long-term strategy** - Develop comprehensive diversity and inclusion
+programs
 4. **Ongoing monitoring** - Establish regular review processes
 
 ## Key Messages & Positioning
@@ -109,12 +114,12 @@ Our analysis revealed:
 
 #### 3. Addresses Key Communication Challenges
 
-- **Complex Statistical Findings → Visual Insights:** Transform regression 
+- **Complex Statistical Findings → Visual Insights:** Transform regression
   results into intuitive charts
-- **Multiple Variables → Interactive Filters:** Let users explore 
+- **Multiple Variables → Interactive Filters:** Let users explore
   education×gender×race combinations
 - **Statistical Uncertainty → Confidence Indicators:** Visual uncertainty bands
-- **Actionable Insights → Targeted Views:** Custom dashboards for different 
+- **Actionable Insights → Targeted Views:** Custom dashboards for different
   decision points
 
 #### 4. Business Integration Benefits
@@ -128,7 +133,8 @@ Our analysis revealed:
 
 1. **Quick Start Guide** (`quick_start_guide.md`) - 30-day implementation plan
 2. **Executive Summary** (`executive_summary.md`) - One-page business case
-3. **Artifact Justification** (`artifact_justification.md`) - Medium selection rationale
+3. **Artifact Justification** (`artifact_justification.md`) - Medium selection
+rationale
 
 ## Why Tableau is Essential for This Research
 
@@ -136,8 +142,10 @@ Our analysis revealed:
 
 #### 1. Transforms Academic Findings into Business Intelligence
 
-- Our statistical analysis (t-tests, ANOVA, regression) becomes intuitive visualizations
-- Complex intersectional data (gender×race×education) becomes filterable dashboards
+- Our statistical analysis (t-tests, ANOVA, regression) becomes intuitive
+visualizations
+- Complex intersectional data (gender×race×education) becomes filterable
+dashboards
 - Confidence intervals and p-values become visual uncertainty indicators
 
 #### 2. Enables Self-Service Data Exploration
@@ -176,7 +184,8 @@ not captured
 1. **Confidence intervals** - Present ranges rather than point estimates
 2. **Sensitivity analysis** - Show robustness of findings
 3. **Comparable studies** - Reference supporting research from other sources
-4. **Pilot programs** - Recommend small-scale testing before full implementation
+4. **Pilot programs** - Recommend small-scale testing before full
+implementation
 
 ## Success Metrics
 
