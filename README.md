@@ -83,13 +83,13 @@ who:
 - Are aware of wage gaps but lack specific evidence  
 - Need quick, visual, and actionable insights  
 
-**Core Messages**  
+### Core Messages  
 
 1. The data is clear – wage gaps are real and significant.  
 2. Practical solutions exist – pay audits and structured frameworks.  
 3. Fair pay is a business advantage – equity boosts retention and reputation.  
 
-**Mediums**  
+### Mediums  
 
 - **Tableau Dashboard** → explore wage gaps by gender × race × education  
 - **Executive Summary (1 page)** → quick business case  
