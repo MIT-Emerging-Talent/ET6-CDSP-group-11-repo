@@ -1,21 +1,103 @@
-# Software Engineer Earnings Analysis
+# 💻 Software Engineer Earnings Analysis
 
-## Quick Links
+We are **Confidence crew**, a collaborative team from the MIT Emerging Talent Program.
+Our project explores **wage disparities in the U.S. tech industry**, asking:  
+👉 *How do education, gender, race, and age affect software engineer earnings?*
 
-- [Dataset (Google Drive)](https://drive.google.com/file/d/13S9KWvOleAu-V_32Cpyrn8KHm1BnURN0/view?usp=sharing)
-- [Analysis Notebook](4_data_analysis/software_engineering_dataset_analysis.ipynb)
-- [Data Cleaning Process](2_data_preparation/employment_dataset_cleaning_script.ipynb)
-- [Dataset Documentation](1_datasets/data_source.md)
+Our work combines **data cleaning, statistical analysis, and clear communication**
+to translate raw data into actionable insights
+for both technical and non-technical audiences.
 
-## Project Overview
+---
 
-This project analyzes demographic factors influencing software engineer
-earnings
-in the U.S. tech industry. We explore patterns in wages across gender,
-education,
-race, and age groups using statistical analysis.
+## 🎯 Project Overview
 
-## Repository Structure
+Software engineering is one of the fastest-growing and best-paid careers.  
+But behind the averages, our analysis shows **systemic disparities**:
+
+- Gender wage gaps persist across all education levels  
+- Education boosts pay, but returns plateau at higher levels  
+- Racial disparities exist, though size and direction vary  
+- Career progression patterns differ significantly by demographic  
+
+We approached the problem step by step: defining the domain,
+collecting and preparing data, running statistical analysis,
+and finally building communication tools to share our findings.
+
+---
+
+## 🔍 Research Structure
+
+Our central question:  
+**Which demographic factors significantly influence software engineer earnings,
+and how can results be communicated effectively to decision makers?**
+
+We broke this into sub-steps:  
+
+1. **Domain Study** → wage equity in tech and prior research  
+2. **Data Preparation** → cleaning & structuring U.S. engineer earnings data  
+3. **Exploratory Analysis** → patterns across education, gender, and race  
+4. **Statistical Testing** → t-tests, ANOVA, regression modeling  
+5. **Communication** → dashboards, summaries, and strategy for industry  
+
+---
+
+## 📋 Project Milestones
+
+Following the Collaborative Data Science Project (CDSP) structure:  
+
+- **Milestone 0:** Team setup, tooling, and collaboration norms  
+- **Milestone 1:** Problem Identification → [Domain Study](./0_domain_study)  
+- **Milestone 2:** Data Collection & Cleaning → [Datasets](./1_datasets)  
+- **Milestone 3:** Analysis → [Findings](./4_data_analysis)  
+- **Milestone 4:** Communication → [Strategy](./5_communication_strategy)  
+- **Milestone 5:** Final Presentation → [Slides & Summary](./6_final_presentation)
+
+## 📌 Main Finding
+
+While **education is a strong predictor of earnings**, systemic disparities remain:
+
+- Women earn less than men with the same education (p < 0.05)  
+- Racial wage gaps vary but are statistically significant  
+- Advanced degrees increase earnings but with diminishing returns  
+
+---
+
+## ✅ Conclusion
+
+Our analysis shows that **structural inequities persist in the U.S. tech workforce**,
+even among software engineers.  
+
+By pairing rigorous analysis with **interactive dashboards and executive summaries**,
+we aim to make the findings useful for decision makers.  
+The key takeaway: addressing pay equity is not only a matter of fairness — it is
+also a **business advantage** in recruiting, retention, and competitiveness.  
+
+---
+
+## 📣 Communication Strategy
+
+We focused on translating our findings for **tech leaders and HR professionals**
+who:  
+
+- Are aware of wage gaps but lack specific evidence  
+- Need quick, visual, and actionable insights  
+
+### Core Messages  
+
+1. The data is clear – wage gaps are real and significant.  
+2. Practical solutions exist – pay audits and structured frameworks.  
+3. Fair pay is a business advantage – equity boosts retention and reputation.  
+
+### Mediums  
+
+- **Tableau Dashboard** → explore wage gaps by gender × race × education  
+- **Executive Summary (1 page)** → quick business case  
+- **Quick Start Guide (30 days)** → step-by-step HR action plan  
+
+---
+
+## 📁 Repository Structure
 
 ```markdown
 ├── 0_domain_study/          # Background research and problem definition
@@ -27,85 +109,12 @@ race, and age groups using statistical analysis.
 └── 6_final_presentation/    # Final results and presentation
 ```
 
-## Getting Started
+## 👥 Team Members
 
-### 1. Get the Data
+MIT Emerging Talent Program – **CDSP Group 11**  
 
-- Download the dataset from [Google Drive](https://drive.google.com/file/d/13S9KWvOleAu-V_32Cpyrn8KHm1BnURN0/view?usp=sharing)
-- Place it in the `1_datasets` directory
-
-### 2. Set Up Environment
-
-```bash
-python -m venv cdsp_env
-source cdsp_env/bin/activate  # On Windows: cdsp_env\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 3. Run Analysis
-
-Open and run the notebooks in this order:
-
-1. [Data Cleaning](2_data_preparation/employment_dataset_cleaning_script.ipynb)
-2. [Data Exploration](3_data_exploration/explore_software_engineers_dataset.ipynb)
-3. [Statistical Analysis](4_data_analysis/software_engineering_dataset_analysis.ipynb)
-
-## Key Findings
-
-- Significant wage differences across demographic groups
-- Education level strongly correlates with earnings
-- Multiple factors contribute to wage disparities
-- See detailed results in the [analysis notebook](4_data_analysis/software_engineering_dataset_analysis.ipynb)
-
-## Contributors
-
-Team members from MIT Emerging Talent Program (CDSP Group 11)
-
-## License
-
-See [LICENSE](LICENSE) file for details
-
-## Tools We Use
-
-- Python
-- pandas, numpy, matplotlib
-- Git and GitHub for version control and collaboration
-- Google Docs for planning and communication
-
-## Team Values
-
-- **Curiosity** – We ask questions, explore possibilities,
-and stay open to new insights.  
-- **Clarity** – We aim for clean code, clear documentation,
-and effective communication.  
-- **Collaboration** – We support each other, share responsibilities,
-and value every contribution.  
-- **Growth** – We’re here to learn, give feedback, and improve with
-every iteration.
-- **Mutual Respect** – We value diverse perspectives, listen actively,
-and create a safe, inclusive team environment.
-
-## Learning Goals
-
-- **Ensure Clear Documentation**  
-  Maintain well-structured READMEs and comments to support project
-  clarity and onboarding.
-
-- **Develop Clean, Modular Code**  
-  Write readable, reusable Python code following consistent
-  style and best practices.
-
-- **Reinforce Data Science Fundamentals**  
-  Apply key concepts such as exploratory data analysis
-  and basic statistics throughout the project.
-
-- **Foster Effective Collaboration**  
-  Communicate proactively, coordinate with teammates,
-  and contribute to a supportive group dynamic.
-
-- **Communicate Insights Clearly**  
-  Translate technical findings into concise, accessible
-  summaries or visualizations.
-
-- **Engage in Constructive Feedback**  
-  Provide meaningful code reviews and iterate based on team feedback.
+- Olumide Kolawole  
+- Anna Shumylina  
+- Kervens Louis  
+- Oleksandr Maksymikhin  
+- Dorcas Wanja Njeri  
