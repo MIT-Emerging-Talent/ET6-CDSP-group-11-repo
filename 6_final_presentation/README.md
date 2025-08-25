@@ -36,7 +36,3 @@ All supporting analysis can be found in:
 
 - Data Analysis: `/4_data_analysis/software_engineering_dataset_analysis.ipynb`
 - Dataset: `/1_datasets/software_engineers_employment_dataset_cleaned.csv`
-
-## Team Members
-
-Group 11 - CDSP Program
