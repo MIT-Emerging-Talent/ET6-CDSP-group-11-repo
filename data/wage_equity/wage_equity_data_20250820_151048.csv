@@ -1,0 +1,1001 @@
+employee_id,gender,race_ethnicity,education_level,years_experience,job_title,location,salary
+1,Male,White,Bachelors,18,Senior Engineer,Boston,132262.3405579217
+2,Non-Binary,Asian,Bachelors,24,Software Engineer,Seattle,144296.9935005484
+3,Female,Hispanic,PhD,4,Tech Lead,Austin,197525.72132811937
+4,Male,Asian,Bachelors,7,Principal Engineer,Seattle,146387.29155255627
+5,Male,Black,Bachelors,6,Principal Engineer,Austin,145199.66299883433
+6,Male,Asian,Masters,13,Tech Lead,Boston,196886.62917912478
+7,Male,Asian,Bachelors,23,Tech Lead,Boston,273507.50718230667
+8,Female,Black,Masters,22,Software Engineer,San Francisco,143837.48744940895
+9,Male,White,Bachelors,2,Software Engineer,Austin,114594.62245838877
+10,Female,Asian,Bachelors,17,Senior Engineer,Austin,147513.99471746
+11,Male,White,Bachelors,15,Tech Lead,New York,99128.851599897
+12,Non-Binary,Other,Bachelors,22,Principal Engineer,New York,138218.53722682418
+13,Female,Hispanic,PhD,18,Software Engineer,New York,247728.65058415302
+14,Male,White,Bachelors,18,Principal Engineer,Seattle,219921.86353045143
+15,Male,Asian,Masters,17,Senior Engineer,New York,257196.49885844032
+16,Male,Hispanic,Bachelors,19,Senior Engineer,Austin,160653.85051877098
+17,Male,White,Bachelors,15,Software Engineer,Seattle,153742.2570548306
+18,Male,Asian,PhD,7,Software Engineer,Boston,100366.52816264927
+19,Male,Hispanic,Bachelors,0,Senior Engineer,San Francisco,147958.0362694893
+20,Male,White,Masters,16,Senior Engineer,New York,260235.06484319683
+21,Male,Asian,Bootcamp,11,Software Engineer,Boston,182563.60190829376
+22,Male,White,Masters,20,Senior Engineer,Austin,309345.83719194366
+23,Male,Hispanic,PhD,10,Tech Lead,San Francisco,215577.79393263292
+24,Male,Other,Bachelors,4,Tech Lead,Boston,186711.2297079689
+25,Male,Hispanic,Bachelors,11,Principal Engineer,San Francisco,151601.06309460066
+26,Female,Asian,Bachelors,16,Software Engineer,New York,84273.02882469053
+27,Male,Black,Masters,5,Software Engineer,Austin,192849.25156950165
+28,Male,Black,Bootcamp,0,Senior Engineer,San Francisco,59294.99359776522
+29,Male,White,Bachelors,4,Senior Engineer,Boston,140118.7888629771
+30,Male,Black,Masters,24,Software Engineer,New York,294048.9144180533
+31,Male,White,Bachelors,13,Software Engineer,New York,180321.59179466774
+32,Male,Asian,Masters,4,Senior Engineer,Boston,242591.31224729912
+33,Male,White,Bachelors,21,Software Engineer,Boston,99466.07218621277
+34,Female,White,Bootcamp,23,Software Engineer,San Francisco,151928.20738535823
+35,Non-Binary,White,Masters,0,Software Engineer,Seattle,124741.99219609494
+36,Female,Asian,Bachelors,17,Software Engineer,New York,102265.32106289614
+37,Male,White,Bachelors,15,Senior Engineer,San Francisco,123812.62360349357
+38,Male,Asian,Bachelors,8,Senior Engineer,Boston,117361.21567725048
+39,Female,White,Bachelors,18,Senior Engineer,San Francisco,113896.85076268547
+40,Male,White,Bachelors,21,Software Engineer,Boston,190319.06160698683
+41,Male,Asian,PhD,4,Software Engineer,Austin,142675.4741936093
+42,Male,Black,Masters,1,Senior Engineer,Boston,153436.8744288398
+43,Male,White,Masters,14,Senior Engineer,Boston,227775.598539288
+44,Female,Asian,Bachelors,6,Senior Engineer,Boston,137865.72889794136
+45,Male,Hispanic,PhD,3,Software Engineer,Seattle,146736.0897280731
+46,Female,Asian,Masters,0,Principal Engineer,Boston,125642.24783404563
+47,Male,White,Bachelors,12,Software Engineer,New York,205433.25978001067
+48,Male,White,Masters,19,Senior Engineer,New York,240794.00554489522
+49,Male,Hispanic,Masters,21,Senior Engineer,San Francisco,329479.6106470257
+50,Male,White,Bachelors,6,Senior Engineer,Seattle,176369.13613154076
+51,Non-Binary,Hispanic,Bachelors,14,Software Engineer,San Francisco,219243.727165342
+52,Female,Asian,Bachelors,22,Senior Engineer,New York,63819.11539472035
+53,Female,Hispanic,Bachelors,13,Tech Lead,New York,145206.68511381553
+54,Female,Black,PhD,22,Software Engineer,Austin,194509.92154336572
+55,Male,Other,Masters,18,Software Engineer,Boston,205879.82692840573
+56,Female,White,Masters,21,Software Engineer,New York,152722.14095887713
+57,Male,Black,Bachelors,23,Tech Lead,San Francisco,222887.3095994779
+58,Male,White,Bachelors,19,Software Engineer,San Francisco,103226.41203313986
+59,Male,Asian,Masters,23,Principal Engineer,Boston,256742.3862897106
+60,Male,Asian,Masters,17,Senior Engineer,Boston,168177.70398469476
+61,Male,Hispanic,Bachelors,9,Principal Engineer,Austin,133335.28996641145
+62,Male,Other,Masters,8,Principal Engineer,Seattle,189879.10570202227
+63,Female,Black,Masters,24,Senior Engineer,San Francisco,205729.46981584997
+64,Male,White,Bachelors,7,Software Engineer,Boston,183457.32908405428
+65,Male,White,Bachelors,9,Software Engineer,San Francisco,115461.91642726782
+66,Male,Asian,Masters,16,Software Engineer,Boston,200119.16939779345
+67,Male,White,Bachelors,1,Senior Engineer,New York,151063.08931564458
+68,Female,White,Bachelors,5,Software Engineer,San Francisco,127892.18248550977
+69,Male,White,Bachelors,4,Software Engineer,New York,148699.96691634998
+70,Non-Binary,White,Bachelors,8,Senior Engineer,San Francisco,171017.2748986707
+71,Female,White,Masters,4,Principal Engineer,Seattle,118033.37300932921
+72,Male,White,Masters,17,Software Engineer,Austin,176246.1954563153
+73,Male,White,Bachelors,19,Software Engineer,New York,215525.09897951302
+74,Female,White,PhD,8,Software Engineer,Boston,152193.72051541167
+75,Female,Other,PhD,16,Principal Engineer,Seattle,241639.9533061397
+76,Female,White,PhD,16,Senior Engineer,San Francisco,206144.06189590276
+77,Female,White,Bachelors,11,Software Engineer,New York,114519.06167795579
+78,Male,Asian,Bachelors,6,Software Engineer,San Francisco,153578.79454911442
+79,Male,White,Bootcamp,2,Software Engineer,San Francisco,88644.7356099511
+80,Male,Hispanic,Masters,9,Software Engineer,San Francisco,216749.67084106442
+81,Female,Black,Bachelors,1,Principal Engineer,Austin,68363.7946685128
+82,Male,White,Bachelors,24,Tech Lead,Austin,269458.56814852316
+83,Male,White,Bachelors,2,Senior Engineer,Boston,137403.87305566957
+84,Male,Hispanic,PhD,15,Tech Lead,New York,208551.99727676707
+85,Male,Hispanic,Masters,1,Software Engineer,Seattle,169265.07905343527
+86,Male,Asian,Bachelors,23,Senior Engineer,Seattle,228724.26085903138
+87,Female,Asian,Bachelors,9,Tech Lead,Seattle,172624.41089003632
+88,Male,White,Masters,5,Software Engineer,San Francisco,211113.12446917375
+89,Female,Other,Masters,21,Tech Lead,Austin,208038.39515853743
+90,Male,White,Bachelors,10,Software Engineer,New York,122000.94316637849
+91,Male,Hispanic,Masters,22,Software Engineer,San Francisco,198067.77954444377
+92,Female,Asian,Bootcamp,6,Software Engineer,Austin,106383.73068533474
+93,Female,Asian,Bachelors,14,Senior Engineer,Austin,184009.14255404632
+94,Male,Asian,Masters,5,Senior Engineer,New York,140592.86714643563
+95,Female,White,Bachelors,19,Principal Engineer,New York,145209.32626457946
+96,Male,White,Masters,8,Senior Engineer,New York,250192.43992006048
+97,Male,White,Masters,21,Tech Lead,San Francisco,219074.7732126735
+98,Male,White,Masters,19,Tech Lead,Boston,182279.7471637093
+99,Male,Black,Masters,11,Software Engineer,New York,219176.40301286546
+100,Male,White,Bachelors,18,Senior Engineer,Boston,182206.59612726717
+101,Male,White,PhD,19,Software Engineer,San Francisco,153687.34925284886
+102,Male,Hispanic,Masters,2,Senior Engineer,Boston,184346.22800826567
+103,Male,Hispanic,Bachelors,14,Principal Engineer,Seattle,138576.12493821088
+104,Male,Hispanic,Masters,1,Software Engineer,Boston,143688.81423877357
+105,Female,Other,Masters,20,Senior Engineer,New York,184482.91278109723
+106,Male,White,Bachelors,1,Senior Engineer,San Francisco,130710.12626021878
+107,Male,White,PhD,21,Senior Engineer,New York,110570.59731448487
+108,Female,Black,PhD,2,Software Engineer,Seattle,123827.82636007087
+109,Male,Asian,Bachelors,5,Software Engineer,New York,176806.8785739917
+110,Male,White,Bootcamp,14,Software Engineer,New York,201877.181232646
+111,Male,Black,Bachelors,9,Software Engineer,New York,114631.83645950377
+112,Male,White,Bachelors,8,Software Engineer,Austin,183046.2546288795
+113,Female,White,Bachelors,0,Senior Engineer,Seattle,82583.5412621476
+114,Female,Asian,PhD,15,Software Engineer,New York,167564.587136444
+115,Male,Asian,Masters,5,Tech Lead,New York,145925.27026072916
+116,Female,Asian,Bachelors,8,Senior Engineer,New York,129920.37330088501
+117,Female,White,Bachelors,3,Senior Engineer,San Francisco,139012.9806526045
+118,Male,Hispanic,Masters,1,Senior Engineer,Austin,151542.01148779446
+119,Female,White,Bachelors,3,Senior Engineer,San Francisco,107674.16772179875
+120,Male,White,PhD,0,Principal Engineer,Austin,186274.17123893308
+121,Female,Hispanic,Masters,18,Software Engineer,New York,144393.41028635032
+122,Female,Hispanic,Masters,24,Software Engineer,Seattle,197861.22936892006
+123,Male,Black,Bootcamp,9,Tech Lead,Boston,171305.33832106547
+124,Male,Black,Bachelors,20,Software Engineer,Boston,217406.69816594754
+125,Male,Asian,Bootcamp,14,Software Engineer,New York,135481.90550476205
+126,Male,Asian,Masters,21,Software Engineer,San Francisco,139858.87623023393
+127,Female,White,Masters,18,Software Engineer,Seattle,194680.5113253891
+128,Female,White,Bachelors,15,Senior Engineer,Austin,89528.48440963698
+129,Male,White,PhD,20,Software Engineer,New York,227249.9181185301
+130,Male,White,Bachelors,23,Tech Lead,Seattle,262572.68384129903
+131,Male,Asian,Bachelors,21,Tech Lead,Seattle,224781.49780416043
+132,Male,Asian,Bachelors,3,Senior Engineer,Austin,64626.51491900213
+133,Male,White,Masters,1,Senior Engineer,Seattle,149263.04420673318
+134,Male,White,Masters,24,Tech Lead,San Francisco,218420.45726748204
+135,Female,Asian,Masters,12,Software Engineer,San Francisco,108729.60262426759
+136,Male,White,PhD,0,Tech Lead,San Francisco,162563.29859257882
+137,Male,Black,Bachelors,16,Tech Lead,Seattle,155766.8395136917
+138,Female,Asian,Masters,12,Senior Engineer,San Francisco,140163.93147097953
+139,Male,Asian,Bachelors,3,Senior Engineer,Austin,134856.27537255376
+140,Non-Binary,Asian,PhD,6,Software Engineer,Seattle,134374.14855684838
+141,Non-Binary,Black,Masters,16,Senior Engineer,Boston,188215.44450950407
+142,Male,White,Masters,8,Tech Lead,Seattle,145737.5612216314
+143,Male,Asian,Masters,3,Software Engineer,Austin,130171.1567732893
+144,Male,Asian,Bachelors,18,Tech Lead,Boston,230673.3553414534
+145,Male,White,Bachelors,0,Software Engineer,Seattle,152840.1490914083
+146,Male,Hispanic,Masters,9,Software Engineer,San Francisco,100395.31416144589
+147,Male,Black,Bachelors,3,Software Engineer,New York,155229.2819937823
+148,Male,Asian,Bachelors,8,Software Engineer,New York,200827.58537209113
+149,Male,Black,Bachelors,12,Senior Engineer,San Francisco,226740.97415006591
+150,Male,Black,Masters,13,Software Engineer,New York,216774.8097548209
+151,Female,Asian,Bachelors,9,Principal Engineer,New York,95296.17037696388
+152,Male,Black,Bachelors,5,Senior Engineer,San Francisco,159734.33899198993
+153,Male,Asian,Masters,15,Software Engineer,San Francisco,156615.65093032375
+154,Male,Asian,Masters,5,Senior Engineer,Seattle,145092.85703273473
+155,Non-Binary,Asian,Bachelors,16,Tech Lead,Seattle,175147.96299551098
+156,Male,Black,Bachelors,9,Senior Engineer,San Francisco,121738.66889382605
+157,Female,White,Bachelors,17,Software Engineer,Austin,109877.8561898317
+158,Female,Hispanic,Bachelors,21,Tech Lead,New York,185619.86798307105
+159,Male,Hispanic,Bachelors,17,Tech Lead,Seattle,265785.2564553479
+160,Female,White,Masters,2,Software Engineer,New York,162983.3175457889
+161,Male,Black,Masters,19,Software Engineer,Boston,254964.73971323835
+162,Male,White,Masters,20,Senior Engineer,San Francisco,274851.0360445533
+163,Male,White,Bachelors,24,Software Engineer,Austin,239306.32605458688
+164,Male,Asian,Masters,14,Tech Lead,Boston,218000.61223876613
+165,Male,White,Bachelors,14,Software Engineer,Boston,208681.11996690236
+166,Female,Black,Bootcamp,3,Principal Engineer,Boston,65831.71307072262
+167,Male,Black,Masters,8,Senior Engineer,San Francisco,179653.9811101678
+168,Male,Asian,Bachelors,18,Software Engineer,Seattle,181060.19287153444
+169,Male,White,Masters,23,Software Engineer,San Francisco,237820.42956988377
+170,Male,White,Bachelors,16,Senior Engineer,Seattle,157115.07366524255
+171,Female,Asian,Masters,10,Tech Lead,Boston,172332.29786240566
+172,Male,Other,Bachelors,24,Tech Lead,Boston,164194.91470011947
+173,Male,Asian,Bachelors,8,Software Engineer,Austin,128940.59662661632
+174,Male,White,PhD,9,Software Engineer,Seattle,159358.96911231874
+175,Male,Asian,Bachelors,17,Software Engineer,Boston,220336.78266832506
+176,Male,Asian,Masters,19,Senior Engineer,New York,216024.99644867398
+177,Female,Black,Bachelors,12,Software Engineer,Austin,122738.33445584823
+178,Male,White,Masters,7,Senior Engineer,San Francisco,151391.17738154953
+179,Female,Black,Masters,6,Senior Engineer,Austin,138548.28291930043
+180,Male,Asian,Masters,16,Principal Engineer,New York,287068.25135749474
+181,Male,Hispanic,Bachelors,20,Software Engineer,Seattle,132647.02385535976
+182,Male,White,Bachelors,22,Software Engineer,San Francisco,232840.39788445333
+183,Female,Asian,Bachelors,14,Senior Engineer,San Francisco,161926.13526010278
+184,Female,Hispanic,Bachelors,19,Senior Engineer,Seattle,124790.4802731833
+185,Male,White,Masters,14,Software Engineer,Austin,267822.12248467805
+186,Female,Hispanic,PhD,0,Principal Engineer,Boston,144689.56437182153
+187,Female,Asian,PhD,24,Tech Lead,Austin,191463.52165042856
+188,Male,White,Masters,13,Software Engineer,New York,102651.83395424711
+189,Male,White,Masters,4,Software Engineer,Boston,163414.2336850457
+190,Male,Asian,Masters,10,Senior Engineer,Austin,177393.16052369415
+191,Male,White,Bachelors,15,Tech Lead,Seattle,129163.98748992382
+192,Female,Asian,PhD,1,Software Engineer,New York,97061.83439723437
+193,Female,White,Masters,7,Senior Engineer,New York,172750.55274246816
+194,Male,Asian,Masters,10,Senior Engineer,New York,91687.08340665337
+195,Male,White,Bachelors,17,Software Engineer,Boston,195437.00880480855
+196,Male,Hispanic,Bachelors,2,Senior Engineer,San Francisco,121239.50418511461
+197,Female,Other,Bachelors,0,Principal Engineer,Boston,114677.44812301271
+198,Female,Hispanic,PhD,10,Software Engineer,Austin,153554.7361539179
+199,Female,Asian,Masters,15,Software Engineer,San Francisco,182555.41811657514
+200,Female,White,Bachelors,17,Senior Engineer,Austin,125419.45461142204
+201,Male,Black,Bootcamp,15,Tech Lead,San Francisco,154673.6275318126
+202,Male,White,Bachelors,22,Principal Engineer,Boston,223556.37713190695
+203,Male,White,Bachelors,9,Senior Engineer,New York,158148.21829559543
+204,Female,White,Bachelors,17,Tech Lead,Seattle,168663.71496667145
+205,Male,Asian,Masters,5,Senior Engineer,New York,121884.7224442559
+206,Male,Black,PhD,18,Senior Engineer,Boston,196888.5440511498
+207,Male,Asian,Bachelors,3,Software Engineer,San Francisco,112051.7872576386
+208,Female,White,PhD,12,Software Engineer,New York,161414.16909531425
+209,Male,White,Bachelors,23,Software Engineer,Boston,271680.1514896239
+210,Male,Other,PhD,13,Senior Engineer,Austin,190038.4323677016
+211,Male,White,Masters,2,Software Engineer,Seattle,104460.03055637564
+212,Female,Asian,Masters,9,Principal Engineer,New York,169143.37494119766
+213,Female,White,Bachelors,5,Software Engineer,San Francisco,156790.31862681615
+214,Male,Black,Bootcamp,0,Software Engineer,Austin,73947.27999998764
+215,Female,Asian,Masters,22,Senior Engineer,Boston,290753.44113429927
+216,Male,White,Bachelors,23,Senior Engineer,Seattle,223849.45373777975
+217,Male,White,Masters,13,Software Engineer,San Francisco,241400.23278977472
+218,Female,Asian,Bachelors,7,Software Engineer,Boston,168686.49529926147
+219,Male,Asian,PhD,18,Principal Engineer,Boston,287168.66886637214
+220,Female,White,Bachelors,13,Software Engineer,New York,137862.06576406275
+221,Female,Hispanic,Masters,9,Software Engineer,New York,194321.4275595848
+222,Male,White,Masters,16,Tech Lead,San Francisco,217239.86424960915
+223,Male,White,Bachelors,8,Software Engineer,Boston,189366.0317665642
+224,Male,Hispanic,Bachelors,5,Senior Engineer,New York,179395.70419043355
+225,Male,White,Bachelors,10,Software Engineer,Seattle,113455.03299106203
+226,Male,Asian,Bachelors,24,Software Engineer,Seattle,247385.9384100135
+227,Non-Binary,White,Bachelors,6,Software Engineer,Boston,121644.92347616398
+228,Male,White,Masters,16,Software Engineer,New York,211296.01391419178
+229,Female,Other,Bachelors,0,Software Engineer,San Francisco,105240.86509549135
+230,Male,White,Bachelors,21,Software Engineer,San Francisco,199852.84363943498
+231,Female,Hispanic,Masters,4,Tech Lead,San Francisco,181414.66535485056
+232,Male,White,Bachelors,8,Software Engineer,Seattle,97968.14827954084
+233,Male,White,PhD,17,Senior Engineer,New York,128972.30741724839
+234,Male,White,PhD,23,Tech Lead,New York,130977.7417081943
+235,Male,Asian,Masters,20,Senior Engineer,Seattle,279816.7633692624
+236,Female,White,Masters,1,Software Engineer,San Francisco,97457.5139175103
+237,Male,Black,PhD,10,Principal Engineer,San Francisco,201444.09038885072
+238,Male,Asian,Bachelors,5,Software Engineer,Boston,134042.25921770203
+239,Male,Hispanic,Bachelors,7,Software Engineer,Austin,113024.58239476872
+240,Male,White,Bachelors,3,Tech Lead,New York,158643.30566807138
+241,Female,Black,Masters,17,Senior Engineer,New York,171478.84417010803
+242,Non-Binary,Black,Bachelors,10,Senior Engineer,New York,132055.4987959527
+243,Female,Black,Masters,4,Software Engineer,Austin,139024.4252314208
+244,Male,Black,Bootcamp,14,Senior Engineer,Boston,180994.40173269724
+245,Male,Black,PhD,17,Software Engineer,Austin,172197.9702098619
+246,Female,Asian,Masters,1,Principal Engineer,San Francisco,147185.28045161508
+247,Male,White,Bachelors,21,Software Engineer,San Francisco,266497.8371169168
+248,Non-Binary,White,Masters,10,Tech Lead,New York,103894.57058495513
+249,Non-Binary,Hispanic,Masters,24,Senior Engineer,Seattle,228486.83527930093
+250,Female,Asian,Bachelors,12,Tech Lead,New York,128145.29767544787
+251,Male,Black,Bachelors,3,Senior Engineer,Seattle,153664.8399895486
+252,Male,Asian,PhD,21,Senior Engineer,Austin,170131.7056342962
+253,Female,White,Masters,6,Software Engineer,San Francisco,194780.96389105744
+254,Male,White,Masters,10,Software Engineer,Seattle,107285.91793165622
+255,Male,Asian,PhD,21,Software Engineer,Austin,229568.32755615932
+256,Male,White,Masters,23,Tech Lead,San Francisco,258541.6327109094
+257,Female,White,Masters,3,Tech Lead,Seattle,105918.75744036352
+258,Female,Asian,Bachelors,14,Senior Engineer,New York,114300.42993037066
+259,Male,White,Bachelors,0,Software Engineer,New York,126667.06909891572
+260,Male,Asian,Bachelors,22,Software Engineer,New York,203072.44401555578
+261,Male,White,Masters,2,Senior Engineer,Austin,146497.158855512
+262,Non-Binary,Black,Masters,13,Senior Engineer,New York,209698.56681060066
+263,Male,White,PhD,5,Tech Lead,Boston,155488.36509591655
+264,Male,Asian,Bachelors,17,Principal Engineer,San Francisco,195677.5470357137
+265,Female,White,Masters,24,Software Engineer,Austin,176203.46095337614
+266,Female,White,Masters,0,Senior Engineer,New York,92393.41282805259
+267,Female,White,Masters,5,Senior Engineer,San Francisco,125291.87120245972
+268,Female,Asian,Masters,5,Software Engineer,Seattle,118074.76751837872
+269,Male,Asian,Bachelors,20,Software Engineer,New York,170457.4175441865
+270,Male,White,Masters,15,Software Engineer,San Francisco,258395.5040755531
+271,Female,Asian,Bachelors,4,Tech Lead,Boston,106982.80535274459
+272,Female,Black,Bachelors,16,Senior Engineer,Seattle,125941.90218815791
+273,Female,Black,Bachelors,9,Senior Engineer,Boston,130449.33109754417
+274,Female,White,Masters,20,Principal Engineer,San Francisco,192570.37490390489
+275,Male,Asian,Bootcamp,17,Tech Lead,Boston,114690.85226944972
+276,Male,White,Masters,6,Software Engineer,San Francisco,150691.8806699803
+277,Female,White,Masters,2,Senior Engineer,San Francisco,113810.16712755714
+278,Male,Other,Masters,12,Senior Engineer,Boston,179602.99067759837
+279,Female,White,Masters,14,Tech Lead,San Francisco,196778.08974586125
+280,Female,Asian,Bachelors,19,Senior Engineer,New York,165611.65836200598
+281,Female,Asian,Bachelors,18,Senior Engineer,San Francisco,205301.09963182188
+282,Male,Asian,Bachelors,2,Software Engineer,Austin,126829.20068273568
+283,Male,Asian,Bachelors,3,Tech Lead,San Francisco,188878.05406842811
+284,Male,White,Bachelors,4,Software Engineer,Austin,118917.95953861647
+285,Male,White,Bachelors,0,Software Engineer,San Francisco,96913.12856504627
+286,Male,Asian,Bachelors,3,Software Engineer,San Francisco,148696.79746520706
+287,Male,White,Bootcamp,11,Software Engineer,Boston,192624.1823743688
+288,Male,White,Bachelors,23,Software Engineer,New York,132894.672457529
+289,Male,White,Bachelors,9,Tech Lead,New York,144894.6563030346
+290,Male,White,Bachelors,22,Principal Engineer,Seattle,168783.05913472362
+291,Male,White,Masters,24,Software Engineer,Boston,245836.77911095
+292,Male,White,Bachelors,20,Software Engineer,Boston,192480.86032797143
+293,Female,Asian,Bachelors,19,Software Engineer,New York,214002.33824877575
+294,Male,Asian,Masters,23,Software Engineer,Boston,226899.45855143576
+295,Male,Black,Bachelors,24,Software Engineer,New York,277338.8595068638
+296,Male,White,Bachelors,12,Principal Engineer,Boston,150343.9062904376
+297,Female,White,Bachelors,22,Software Engineer,San Francisco,208537.9777732038
+298,Male,White,Bachelors,13,Senior Engineer,New York,176335.2482733012
+299,Male,Asian,Bachelors,22,Software Engineer,New York,285348.2928544355
+300,Male,Asian,Bachelors,4,Tech Lead,Austin,84772.30060943522
+301,Male,White,Masters,3,Senior Engineer,Boston,106653.13052364178
+302,Male,Hispanic,Masters,13,Principal Engineer,Boston,279655.4466607929
+303,Male,White,Masters,9,Tech Lead,New York,143131.9899288954
+304,Male,Asian,Bachelors,16,Software Engineer,San Francisco,147860.73090143176
+305,Female,Asian,PhD,9,Software Engineer,San Francisco,126474.61460448403
+306,Non-Binary,Hispanic,Bachelors,6,Senior Engineer,San Francisco,164029.48817516444
+307,Male,Asian,Bachelors,15,Software Engineer,Boston,119474.59382470707
+308,Male,Black,Masters,0,Senior Engineer,Austin,138774.53922357928
+309,Female,White,Bachelors,16,Software Engineer,New York,140935.4324460025
+310,Male,Black,Bachelors,20,Software Engineer,Seattle,241752.7480082129
+311,Male,White,Masters,8,Senior Engineer,Austin,147005.65570545223
+312,Male,Hispanic,PhD,5,Senior Engineer,Seattle,190408.6299742599
+313,Male,Asian,Bachelors,18,Tech Lead,Austin,130689.81278997014
+314,Non-Binary,Black,Masters,12,Software Engineer,San Francisco,264935.9821812608
+315,Female,Asian,Bootcamp,2,Senior Engineer,Boston,91479.43751814924
+316,Female,Asian,Bachelors,6,Software Engineer,Seattle,120623.69326020069
+317,Male,Asian,Bachelors,21,Software Engineer,Austin,276517.4881477915
+318,Male,Asian,Bachelors,8,Senior Engineer,Boston,126975.77279584622
+319,Male,White,Bachelors,21,Software Engineer,Seattle,277134.9965696983
+320,Male,White,Bachelors,4,Software Engineer,New York,120574.56854896453
+321,Male,White,PhD,9,Software Engineer,Austin,222489.62600448745
+322,Female,White,Masters,22,Software Engineer,New York,166840.14409786538
+323,Female,Hispanic,Masters,16,Software Engineer,San Francisco,114750.66224427338
+324,Male,White,Bachelors,11,Software Engineer,New York,176142.31458657057
+325,Non-Binary,Other,Masters,22,Software Engineer,New York,239154.54099689424
+326,Female,White,Bootcamp,15,Software Engineer,Austin,89320.61220973858
+327,Male,White,Masters,2,Senior Engineer,San Francisco,135050.8772775084
+328,Male,Black,Bachelors,24,Software Engineer,New York,268359.1624153044
+329,Male,Asian,Masters,21,Software Engineer,Boston,258687.68919804733
+330,Male,Asian,Bachelors,8,Software Engineer,Seattle,134098.00193363332
+331,Male,Asian,Bachelors,14,Senior Engineer,New York,144945.40511037217
+332,Female,Asian,Bachelors,4,Tech Lead,San Francisco,169881.85792584924
+333,Male,White,Masters,22,Tech Lead,New York,146214.2003623903
+334,Male,Other,Masters,12,Senior Engineer,Seattle,184902.40288874833
+335,Male,Other,Bachelors,13,Senior Engineer,San Francisco,105722.14036696253
+336,Male,Asian,Bachelors,19,Senior Engineer,Austin,250327.7697721656
+337,Female,White,Bachelors,14,Senior Engineer,San Francisco,144582.05400193614
+338,Female,Asian,Bachelors,15,Software Engineer,Austin,154487.98678434984
+339,Male,White,Bachelors,22,Software Engineer,San Francisco,337090.8370194549
+340,Male,White,Bachelors,12,Software Engineer,Seattle,138986.31482995514
+341,Male,White,Masters,16,Principal Engineer,Seattle,293522.2861718287
+342,Male,Asian,Bachelors,22,Senior Engineer,San Francisco,179741.5506624722
+343,Male,Black,Bachelors,7,Senior Engineer,New York,136723.49778966818
+344,Male,Asian,Bachelors,20,Software Engineer,Seattle,318632.4123177888
+345,Male,Asian,PhD,1,Senior Engineer,Austin,148277.88417826785
+346,Male,White,Masters,4,Software Engineer,Austin,101454.28893803162
+347,Male,White,Masters,5,Software Engineer,Boston,169885.12791891143
+348,Male,White,Bachelors,11,Tech Lead,Austin,152707.80067583654
+349,Male,Other,Masters,17,Senior Engineer,Boston,227503.85787512545
+350,Male,White,Bachelors,21,Software Engineer,San Francisco,189067.06790627204
+351,Male,Black,Masters,21,Tech Lead,San Francisco,349531.15149227483
+352,Female,Asian,PhD,0,Software Engineer,San Francisco,145245.95486289545
+353,Female,White,Masters,16,Principal Engineer,New York,126949.46019207175
+354,Male,Asian,PhD,10,Software Engineer,New York,201071.6565986629
+355,Male,Asian,Masters,9,Software Engineer,Boston,140224.21925412118
+356,Male,Hispanic,Bachelors,18,Software Engineer,Austin,173355.62047636355
+357,Male,Hispanic,PhD,13,Software Engineer,Austin,161043.2779617044
+358,Male,White,Bachelors,9,Software Engineer,San Francisco,232681.21573414945
+359,Female,White,Masters,14,Senior Engineer,Seattle,137775.70754705602
+360,Male,Asian,Bachelors,18,Tech Lead,New York,216565.47306212914
+361,Male,Hispanic,Bachelors,3,Tech Lead,New York,120222.2229046343
+362,Male,White,Bachelors,1,Software Engineer,San Francisco,87805.0329675008
+363,Male,Asian,Bachelors,8,Senior Engineer,New York,156152.55406786164
+364,Male,Asian,Bachelors,9,Software Engineer,San Francisco,167666.35899296543
+365,Female,Asian,Masters,10,Software Engineer,Boston,173786.23999493392
+366,Male,White,Bachelors,13,Senior Engineer,Austin,57453.461255642695
+367,Non-Binary,Asian,Bachelors,6,Senior Engineer,Seattle,88097.81556250276
+368,Female,Hispanic,Masters,22,Software Engineer,Austin,241331.28494462578
+369,Male,White,Bachelors,14,Software Engineer,Austin,131054.34339286546
+370,Male,White,Masters,21,Principal Engineer,Boston,236352.55866918908
+371,Male,Other,Masters,18,Software Engineer,New York,145681.14794249463
+372,Male,White,Masters,21,Senior Engineer,Seattle,266081.58797987987
+373,Male,Black,Masters,14,Senior Engineer,New York,241582.89750782316
+374,Female,Asian,Bachelors,23,Software Engineer,Austin,203921.6574064981
+375,Male,White,Masters,7,Software Engineer,San Francisco,210084.0841317009
+376,Male,Hispanic,Bachelors,10,Software Engineer,Austin,216992.10565108177
+377,Female,White,Bachelors,8,Tech Lead,New York,89355.77595852422
+378,Male,Asian,Masters,14,Senior Engineer,Austin,157322.9620928947
+379,Female,White,Bachelors,0,Senior Engineer,San Francisco,124887.36104274676
+380,Male,Asian,Masters,0,Principal Engineer,Boston,176992.58212839309
+381,Male,White,Masters,18,Tech Lead,New York,176692.15887672358
+382,Female,White,PhD,2,Senior Engineer,Austin,110015.94956781181
+383,Male,Hispanic,PhD,9,Senior Engineer,New York,159438.33254205968
+384,Female,White,Bachelors,7,Senior Engineer,Boston,73894.79488442405
+385,Female,Asian,Bachelors,14,Senior Engineer,Austin,98802.20109347672
+386,Female,White,Masters,9,Senior Engineer,Austin,102518.39184430326
+387,Male,Black,Bachelors,0,Senior Engineer,New York,111177.045785831
+388,Male,White,Masters,17,Software Engineer,New York,222489.22829236987
+389,Female,Hispanic,Masters,1,Senior Engineer,San Francisco,133911.93851154993
+390,Female,Asian,Masters,18,Software Engineer,Boston,157675.07436094357
+391,Non-Binary,White,Bachelors,12,Software Engineer,San Francisco,129107.99309016611
+392,Male,White,Bachelors,21,Software Engineer,Austin,201647.04711289666
+393,Male,White,Bachelors,0,Senior Engineer,New York,75119.56328551719
+394,Female,Asian,Bachelors,1,Senior Engineer,Austin,130259.70557516236
+395,Male,White,PhD,15,Software Engineer,Austin,287392.824546401
+396,Female,Black,Bachelors,14,Senior Engineer,Seattle,122187.72510931607
+397,Female,White,Bachelors,12,Senior Engineer,Seattle,124902.23399378434
+398,Male,White,Bachelors,15,Software Engineer,Austin,228084.08178076486
+399,Female,Asian,Masters,16,Senior Engineer,New York,168263.43789944737
+400,Female,Asian,Masters,20,Tech Lead,Austin,215280.47632405045
+401,Male,White,Bachelors,6,Tech Lead,Seattle,138332.3890594526
+402,Female,White,Bachelors,23,Senior Engineer,New York,239449.06690655742
+403,Male,White,Bachelors,16,Senior Engineer,Austin,199359.53549436643
+404,Female,Asian,Bachelors,6,Software Engineer,Boston,136838.9621770485
+405,Male,Asian,Masters,12,Software Engineer,Boston,214251.10279737983
+406,Female,Asian,Masters,4,Software Engineer,Austin,113143.84444405261
+407,Male,Black,Bachelors,16,Principal Engineer,New York,157032.18232063943
+408,Male,Black,Bachelors,2,Software Engineer,Austin,151662.0113380072
+409,Female,Asian,Bootcamp,6,Software Engineer,Austin,111747.38583389179
+410,Male,Black,Bachelors,16,Tech Lead,Seattle,125314.07125315726
+411,Male,White,Masters,6,Principal Engineer,Boston,239094.08112647478
+412,Non-Binary,White,Bachelors,20,Tech Lead,Seattle,215052.7046672347
+413,Non-Binary,White,Bachelors,0,Software Engineer,Seattle,109015.9107438155
+414,Male,White,Bachelors,16,Software Engineer,Austin,165456.55640808155
+415,Male,Asian,Masters,16,Software Engineer,Seattle,214384.38928548602
+416,Male,Hispanic,Bootcamp,10,Software Engineer,Boston,158564.9554804257
+417,Male,White,Bachelors,24,Software Engineer,Seattle,101497.16203942554
+418,Male,White,Bachelors,2,Senior Engineer,Boston,194372.72076164698
+419,Female,Asian,Bachelors,14,Principal Engineer,Seattle,116238.28916506581
+420,Female,Hispanic,Bachelors,20,Software Engineer,Boston,163122.25017405872
+421,Female,White,Bachelors,10,Senior Engineer,Seattle,133755.8371641287
+422,Female,Asian,Bachelors,15,Senior Engineer,Seattle,221733.53683602027
+423,Male,White,Masters,24,Software Engineer,New York,232130.73127466274
+424,Male,White,Bachelors,21,Senior Engineer,Boston,273278.0066938925
+425,Male,Other,Bachelors,8,Software Engineer,Boston,163930.26186395346
+426,Male,Hispanic,PhD,23,Software Engineer,Boston,192540.54685769795
+427,Male,White,Bachelors,23,Senior Engineer,San Francisco,209629.6686328122
+428,Female,Hispanic,Bootcamp,0,Software Engineer,Seattle,89080.22483664275
+429,Male,Asian,Bachelors,24,Principal Engineer,Boston,150461.9629789418
+430,Male,Black,PhD,21,Software Engineer,San Francisco,266365.80428399076
+431,Male,Asian,Masters,15,Senior Engineer,New York,201205.690061239
+432,Female,Asian,Masters,8,Senior Engineer,Boston,165685.16247558888
+433,Male,Asian,Bootcamp,18,Software Engineer,Boston,174359.60857569793
+434,Male,Asian,Bachelors,11,Software Engineer,San Francisco,133620.9944091386
+435,Male,White,Bootcamp,18,Senior Engineer,Seattle,198267.32739943126
+436,Female,White,Bachelors,21,Tech Lead,New York,140306.88548126
+437,Male,White,Bachelors,8,Tech Lead,Boston,33492.256552462306
+438,Female,Asian,Bachelors,6,Senior Engineer,Seattle,124231.16720394237
+439,Female,White,Masters,13,Tech Lead,New York,140461.9852489199
+440,Male,Asian,Bachelors,18,Senior Engineer,Austin,202454.42930312452
+441,Male,Hispanic,Masters,18,Senior Engineer,Austin,318720.055330477
+442,Non-Binary,White,Masters,1,Senior Engineer,New York,192776.15699641462
+443,Male,Asian,Masters,8,Senior Engineer,San Francisco,164056.04138734966
+444,Male,White,Masters,12,Tech Lead,New York,148899.90816513504
+445,Female,Black,Bachelors,14,Software Engineer,New York,166011.38163824796
+446,Female,White,Bachelors,2,Tech Lead,San Francisco,98112.80225185245
+447,Non-Binary,Asian,Bachelors,10,Senior Engineer,San Francisco,154151.3559343777
+448,Female,Black,Bachelors,20,Software Engineer,Seattle,136236.88090114435
+449,Male,Hispanic,Bachelors,13,Software Engineer,Seattle,177253.8737481488
+450,Male,Asian,Bachelors,24,Software Engineer,San Francisco,164502.1337416566
+451,Female,Asian,Bachelors,7,Senior Engineer,Austin,159960.13915165086
+452,Male,Asian,Bootcamp,17,Tech Lead,Austin,139026.60954801601
+453,Male,Black,Masters,18,Software Engineer,New York,247644.3777235989
+454,Female,Asian,Bachelors,15,Tech Lead,Boston,101135.22970421542
+455,Male,White,Masters,1,Tech Lead,New York,169899.0129946609
+456,Male,Hispanic,Bachelors,7,Software Engineer,New York,110120.25828556433
+457,Male,Asian,Bachelors,21,Tech Lead,Boston,208371.54586105348
+458,Male,Asian,Masters,5,Principal Engineer,San Francisco,199295.49861758132
+459,Male,White,Bachelors,11,Senior Engineer,Austin,151620.68234758452
+460,Male,Asian,Bachelors,14,Tech Lead,New York,126557.48960222324
+461,Male,White,Bootcamp,24,Principal Engineer,Boston,208831.9728313922
+462,Male,Asian,PhD,7,Senior Engineer,Seattle,143340.4690209854
+463,Female,White,Masters,3,Software Engineer,New York,114935.59260585997
+464,Male,Asian,Masters,14,Tech Lead,Austin,208965.01568869568
+465,Non-Binary,Other,Masters,19,Senior Engineer,San Francisco,261324.9157461964
+466,Male,White,Bachelors,24,Senior Engineer,New York,207770.15305605257
+467,Male,Other,Bachelors,16,Software Engineer,New York,178614.8734371235
+468,Female,White,Bachelors,12,Tech Lead,Boston,164296.94715084048
+469,Male,Hispanic,Bachelors,17,Software Engineer,Seattle,183481.84691928676
+470,Non-Binary,Black,Masters,1,Principal Engineer,Seattle,148251.20908595584
+471,Male,Asian,Bachelors,12,Software Engineer,San Francisco,207204.16867936822
+472,Non-Binary,Asian,Bootcamp,12,Software Engineer,Austin,121360.94265794315
+473,Male,Hispanic,PhD,21,Senior Engineer,San Francisco,44314.975002040046
+474,Female,White,Masters,14,Software Engineer,New York,132506.2889324608
+475,Male,White,Masters,19,Senior Engineer,New York,282128.26111689414
+476,Non-Binary,Asian,PhD,9,Principal Engineer,Seattle,170002.75705734303
+477,Male,Black,Bachelors,2,Tech Lead,Austin,116415.65738449282
+478,Male,Black,Masters,18,Software Engineer,Boston,274511.28668888635
+479,Non-Binary,Black,Bachelors,2,Software Engineer,Austin,111580.0808975004
+480,Male,White,Masters,21,Tech Lead,New York,107266.3951746962
+481,Male,Black,Bachelors,13,Principal Engineer,Boston,104028.9040559521
+482,Female,White,PhD,7,Senior Engineer,Austin,170421.73085288203
+483,Male,Asian,PhD,22,Senior Engineer,Austin,244836.03888572825
+484,Male,White,Bachelors,3,Software Engineer,Boston,178367.2668577156
+485,Male,White,Bachelors,19,Tech Lead,New York,153863.04499282327
+486,Female,White,Bootcamp,10,Senior Engineer,Austin,110106.0447656168
+487,Male,White,Bachelors,10,Software Engineer,Boston,121504.38015065923
+488,Male,Asian,PhD,10,Software Engineer,New York,169621.0338380779
+489,Non-Binary,White,Masters,1,Tech Lead,Boston,67420.07538205721
+490,Female,White,Bachelors,16,Software Engineer,Boston,136404.26077873292
+491,Male,White,Bachelors,8,Software Engineer,Austin,146870.47826775964
+492,Male,White,Bachelors,1,Senior Engineer,New York,119387.37696781037
+493,Male,White,Masters,23,Software Engineer,Austin,358549.70304194145
+494,Male,White,Bachelors,14,Software Engineer,San Francisco,248506.44298773937
+495,Male,Asian,Masters,15,Tech Lead,San Francisco,162536.2539651717
+496,Male,Asian,Bachelors,24,Tech Lead,New York,100932.86655592606
+497,Male,Asian,Masters,3,Tech Lead,Boston,146689.5707280088
+498,Male,Asian,PhD,7,Tech Lead,Austin,198584.14751949193
+499,Non-Binary,White,Bootcamp,8,Senior Engineer,Austin,94599.89390082842
+500,Non-Binary,Black,Bachelors,4,Tech Lead,New York,96436.09683008616
+501,Female,Asian,Masters,15,Software Engineer,New York,237377.2154888805
+502,Male,Asian,Masters,12,Senior Engineer,San Francisco,175595.6802818623
+503,Male,White,Masters,6,Principal Engineer,Seattle,189800.2050596735
+504,Female,White,Bootcamp,19,Software Engineer,New York,110605.69024775753
+505,Female,White,Bachelors,16,Software Engineer,Seattle,148811.06708772632
+506,Male,White,Bachelors,2,Senior Engineer,New York,116504.4403544225
+507,Female,Asian,PhD,4,Software Engineer,Boston,118689.17537472262
+508,Female,Asian,Bachelors,18,Software Engineer,Boston,202448.64716045687
+509,Female,Asian,Masters,11,Tech Lead,San Francisco,101839.67165104076
+510,Female,Black,PhD,6,Principal Engineer,San Francisco,161735.88734954334
+511,Male,Black,Bachelors,8,Senior Engineer,Seattle,135589.47441575344
+512,Male,Asian,PhD,5,Software Engineer,New York,190389.30578779706
+513,Female,Hispanic,Bachelors,16,Software Engineer,Austin,138068.8979000792
+514,Female,White,Masters,15,Tech Lead,San Francisco,206959.13298412066
+515,Male,White,Masters,22,Senior Engineer,Austin,175263.23219809926
+516,Male,White,PhD,2,Software Engineer,Austin,205012.73936909364
+517,Male,Asian,Bachelors,20,Senior Engineer,New York,190617.47065562778
+518,Female,Hispanic,Bachelors,3,Software Engineer,Seattle,74254.27220602466
+519,Non-Binary,White,Masters,9,Senior Engineer,New York,184557.276180344
+520,Male,Hispanic,Masters,4,Tech Lead,San Francisco,146876.44591047795
+521,Male,White,Masters,20,Senior Engineer,Austin,126527.34647709716
+522,Male,Hispanic,Bachelors,21,Senior Engineer,New York,211857.68929580873
+523,Non-Binary,White,Bachelors,9,Software Engineer,New York,171676.16707687234
+524,Female,White,Bachelors,11,Senior Engineer,New York,179143.63363431385
+525,Female,Asian,Masters,9,Senior Engineer,San Francisco,134880.13542430752
+526,Male,White,Bachelors,12,Software Engineer,Seattle,169128.9766572901
+527,Male,White,Bachelors,10,Senior Engineer,New York,157970.91736892355
+528,Male,White,Bootcamp,21,Software Engineer,San Francisco,241606.21381545524
+529,Male,Black,Bachelors,15,Tech Lead,Austin,138743.7466667607
+530,Female,Asian,Bootcamp,7,Senior Engineer,Boston,98174.63934200598
+531,Female,White,Masters,7,Principal Engineer,San Francisco,112314.41057971514
+532,Non-Binary,Asian,Masters,24,Software Engineer,Boston,136230.66716263315
+533,Non-Binary,Asian,Bachelors,7,Tech Lead,New York,138775.20720497152
+534,Male,White,Bachelors,12,Senior Engineer,New York,228532.97193652554
+535,Female,White,Masters,1,Tech Lead,San Francisco,114823.8265516672
+536,Female,White,Masters,11,Software Engineer,Boston,121613.04749241931
+537,Female,White,Masters,9,Senior Engineer,New York,155930.16917530337
+538,Male,Asian,Bachelors,11,Tech Lead,Austin,183105.81533302896
+539,Male,White,Masters,10,Software Engineer,Seattle,172387.11328596974
+540,Male,Asian,Masters,14,Software Engineer,Seattle,264719.1959124351
+541,Non-Binary,Asian,Masters,15,Senior Engineer,New York,143515.43661444003
+542,Male,White,Masters,16,Senior Engineer,Boston,189587.33035967874
+543,Male,Asian,Masters,1,Software Engineer,New York,152657.93019859464
+544,Female,White,Masters,17,Software Engineer,Boston,194523.7296887318
+545,Male,Hispanic,Bachelors,11,Software Engineer,Austin,161484.40088269665
+546,Male,Asian,Bachelors,18,Tech Lead,Boston,125736.99958709977
+547,Male,Black,Bachelors,22,Senior Engineer,New York,315632.96792947524
+548,Female,Asian,Bachelors,17,Tech Lead,Austin,144933.9784211499
+549,Male,White,Bachelors,16,Principal Engineer,San Francisco,182495.87782515876
+550,Female,Asian,Bachelors,5,Senior Engineer,Seattle,135386.5190572976
+551,Male,Hispanic,Bachelors,24,Software Engineer,New York,173556.3232872843
+552,Female,Asian,Bachelors,14,Software Engineer,New York,146901.3056997308
+553,Male,Black,Masters,2,Software Engineer,New York,121515.15300901902
+554,Male,Hispanic,PhD,5,Principal Engineer,Austin,190420.62572607616
+555,Female,White,Bachelors,2,Senior Engineer,San Francisco,100659.10780954295
+556,Male,White,Bootcamp,0,Software Engineer,Boston,115255.40023722604
+557,Male,Asian,Masters,12,Software Engineer,San Francisco,138576.46770289555
+558,Male,White,Bachelors,20,Senior Engineer,Austin,152212.01116770212
+559,Female,Black,Bachelors,13,Senior Engineer,New York,93392.58870881065
+560,Male,Hispanic,Masters,12,Software Engineer,Seattle,154341.9286780143
+561,Female,White,Masters,3,Principal Engineer,New York,45596.22769337174
+562,Male,White,Masters,6,Senior Engineer,Boston,150337.95062644855
+563,Male,Black,Bachelors,21,Software Engineer,Seattle,169475.6507010129
+564,Male,White,Bachelors,9,Tech Lead,New York,158149.70771411515
+565,Male,Black,Bachelors,6,Software Engineer,Seattle,143179.11344497383
+566,Male,White,Bachelors,20,Principal Engineer,San Francisco,252339.8288870914
+567,Male,Asian,Bachelors,14,Principal Engineer,Austin,280917.61387137714
+568,Male,White,Bachelors,14,Senior Engineer,New York,218859.16196021705
+569,Female,Asian,Masters,3,Tech Lead,Boston,113373.75573631734
+570,Male,Asian,PhD,22,Software Engineer,San Francisco,218286.42583055937
+571,Male,Asian,Bachelors,22,Principal Engineer,New York,242459.41950931458
+572,Female,White,PhD,5,Senior Engineer,San Francisco,84919.89603956458
+573,Male,Asian,Bachelors,23,Senior Engineer,Boston,186819.2116435116
+574,Male,Black,Bachelors,19,Principal Engineer,New York,177182.99675943426
+575,Female,White,Bachelors,4,Principal Engineer,Boston,130922.79520642526
+576,Female,White,Masters,19,Tech Lead,Seattle,212423.560042908
+577,Male,White,Bootcamp,11,Software Engineer,Boston,116902.83099448633
+578,Female,Asian,Masters,0,Principal Engineer,Seattle,105148.52169549547
+579,Male,Asian,Bachelors,7,Senior Engineer,New York,161357.28445042725
+580,Male,Asian,Masters,0,Principal Engineer,Seattle,110437.23737080261
+581,Male,White,Bachelors,4,Senior Engineer,New York,174925.5794084159
+582,Non-Binary,White,PhD,21,Software Engineer,New York,253562.25252963122
+583,Male,Asian,Masters,5,Software Engineer,Austin,165504.6413246304
+584,Male,Asian,Bachelors,20,Senior Engineer,New York,210765.14871748417
+585,Male,Other,Masters,2,Tech Lead,Seattle,129205.81013847496
+586,Male,White,Masters,14,Software Engineer,Austin,165277.98322702857
+587,Male,Asian,Bachelors,4,Senior Engineer,Austin,120129.33353773899
+588,Male,White,Masters,23,Software Engineer,New York,262370.5579922105
+589,Male,White,Bachelors,13,Tech Lead,Boston,175182.32469555087
+590,Male,Asian,Masters,17,Senior Engineer,Boston,186358.69022230824
+591,Male,Asian,Masters,15,Software Engineer,Austin,237597.8267089654
+592,Male,Other,Masters,5,Software Engineer,New York,151798.67569381307
+593,Male,White,Masters,24,Software Engineer,Boston,196218.94035673875
+594,Male,White,Masters,23,Senior Engineer,New York,248049.3816996502
+595,Female,Asian,Bachelors,13,Software Engineer,New York,105873.16896052852
+596,Male,Asian,Masters,23,Software Engineer,Austin,134846.41925999895
+597,Female,White,Bachelors,7,Principal Engineer,Austin,123262.49832093378
+598,Male,White,Bachelors,6,Tech Lead,San Francisco,118327.55170263472
+599,Male,White,Bachelors,7,Senior Engineer,Boston,135974.19699808446
+600,Male,Hispanic,Bachelors,12,Principal Engineer,Boston,123757.29693970644
+601,Male,White,Masters,5,Software Engineer,Boston,206664.38264269943
+602,Male,White,Bachelors,17,Senior Engineer,Seattle,151234.37870005533
+603,Male,White,Masters,1,Senior Engineer,New York,126788.90209670027
+604,Male,White,Bachelors,7,Senior Engineer,Austin,158917.1626132714
+605,Male,White,Bachelors,10,Software Engineer,Boston,102312.04236541536
+606,Male,Asian,Masters,0,Senior Engineer,San Francisco,87956.0328229197
+607,Male,White,Bachelors,21,Senior Engineer,Boston,214228.59366540788
+608,Male,Black,Bachelors,5,Senior Engineer,New York,122649.30674905515
+609,Male,White,Masters,15,Software Engineer,New York,155002.70727761983
+610,Female,Asian,Bachelors,19,Software Engineer,Austin,184296.04497894592
+611,Male,Hispanic,Masters,11,Software Engineer,Seattle,146284.97467182975
+612,Female,Asian,Bachelors,10,Software Engineer,Austin,123499.91726995316
+613,Male,Asian,Bachelors,9,Senior Engineer,Boston,118257.42917024725
+614,Male,White,Masters,2,Software Engineer,San Francisco,157376.69790115606
+615,Female,White,Bachelors,12,Tech Lead,Austin,184916.4023634177
+616,Female,Asian,Bachelors,2,Software Engineer,Seattle,57816.090710152945
+617,Male,Other,Bachelors,14,Software Engineer,Austin,175199.2175407775
+618,Male,Asian,Bachelors,15,Senior Engineer,New York,211261.59722205624
+619,Female,Asian,Masters,12,Software Engineer,Boston,142718.62448195112
+620,Female,Asian,Bachelors,16,Senior Engineer,Boston,108274.46079407328
+621,Male,Asian,Masters,2,Senior Engineer,Boston,161674.63618704915
+622,Male,White,PhD,19,Software Engineer,Boston,294472.3500113267
+623,Male,Asian,Bachelors,10,Software Engineer,Boston,190730.3649281733
+624,Male,Hispanic,PhD,20,Software Engineer,Boston,261954.56027488966
+625,Male,White,Bachelors,18,Software Engineer,San Francisco,189323.61467751925
+626,Male,Asian,Bootcamp,21,Software Engineer,Seattle,136474.45743753688
+627,Male,White,Bachelors,10,Software Engineer,Boston,189744.55306341374
+628,Female,Asian,Masters,15,Software Engineer,Seattle,204525.37614976527
+629,Male,White,Bachelors,20,Senior Engineer,Boston,137373.2007045472
+630,Male,Asian,Bachelors,2,Senior Engineer,Austin,138790.45534551842
+631,Female,Black,Masters,21,Senior Engineer,Boston,222403.81804387682
+632,Female,White,Masters,5,Software Engineer,New York,164643.18432103135
+633,Male,Asian,Bachelors,13,Software Engineer,San Francisco,163672.9328823949
+634,Male,Black,Bachelors,23,Tech Lead,Austin,159321.3239907905
+635,Male,Hispanic,Masters,17,Senior Engineer,Austin,182222.25760998254
+636,Male,White,Masters,16,Tech Lead,New York,152809.8222272386
+637,Male,White,Bootcamp,3,Software Engineer,Boston,116217.28462566609
+638,Male,White,Masters,22,Senior Engineer,San Francisco,214940.87333851107
+639,Male,Other,Bootcamp,14,Senior Engineer,Austin,235600.6963722722
+640,Male,Hispanic,Masters,10,Software Engineer,San Francisco,219526.26983835018
+641,Male,Asian,Bachelors,2,Senior Engineer,Austin,158031.62852707328
+642,Male,Black,Bachelors,2,Senior Engineer,Boston,142189.00920832178
+643,Male,Asian,Masters,15,Software Engineer,Austin,181724.93472540737
+644,Male,Asian,Masters,4,Software Engineer,Austin,143918.9319912696
+645,Male,White,Bachelors,20,Tech Lead,Seattle,183174.27360880224
+646,Female,Black,Bachelors,9,Principal Engineer,Boston,135635.93453642624
+647,Male,White,Bootcamp,18,Software Engineer,New York,182501.680709091
+648,Female,Black,Masters,24,Software Engineer,New York,201791.7424715778
+649,Female,Black,Bachelors,3,Software Engineer,Boston,103102.81532224762
+650,Male,Asian,Bachelors,18,Senior Engineer,New York,157351.8578714551
+651,Male,White,Bachelors,10,Software Engineer,Boston,101686.69844645311
+652,Male,White,Bachelors,1,Principal Engineer,New York,163256.41619994154
+653,Male,White,Bachelors,9,Software Engineer,Seattle,236430.6765509123
+654,Female,White,Bachelors,10,Software Engineer,New York,172358.01428777154
+655,Male,White,Masters,24,Senior Engineer,Austin,162647.0457572695
+656,Male,Hispanic,Bachelors,19,Tech Lead,Boston,225468.480430086
+657,Male,Asian,Masters,15,Senior Engineer,San Francisco,251314.4094885813
+658,Male,White,PhD,18,Senior Engineer,San Francisco,207701.4729046166
+659,Male,White,Bachelors,22,Principal Engineer,Boston,223548.57653402362
+660,Male,White,Masters,23,Software Engineer,Seattle,206615.25168876865
+661,Male,Asian,Bachelors,10,Tech Lead,New York,215628.23079773586
+662,Non-Binary,Asian,PhD,13,Software Engineer,Seattle,204790.46338842594
+663,Male,Hispanic,Bachelors,1,Tech Lead,San Francisco,95259.89531663462
+664,Male,Asian,Masters,22,Senior Engineer,Boston,267439.90977299475
+665,Male,Other,Masters,4,Software Engineer,Boston,195471.28522366314
+666,Male,Black,Bachelors,4,Tech Lead,Seattle,141057.22347816543
+667,Male,White,Bachelors,18,Software Engineer,Seattle,206950.206158539
+668,Male,Hispanic,Masters,20,Software Engineer,New York,216949.61070657033
+669,Male,White,Masters,11,Senior Engineer,Austin,131493.54140738508
+670,Male,Black,Bachelors,17,Software Engineer,Austin,174326.460743551
+671,Male,White,Masters,3,Senior Engineer,New York,170088.9053975946
+672,Female,Hispanic,Bachelors,21,Software Engineer,Austin,160938.5632322767
+673,Male,Black,Masters,16,Software Engineer,San Francisco,245127.08268932343
+674,Male,Black,Bachelors,9,Software Engineer,Austin,137457.88251837206
+675,Male,Black,PhD,19,Software Engineer,New York,216271.9650338325
+676,Non-Binary,White,Bachelors,5,Senior Engineer,Austin,150006.2759377107
+677,Male,White,Bachelors,24,Tech Lead,Boston,217847.5898670371
+678,Male,White,Bachelors,13,Principal Engineer,Seattle,149631.21006581184
+679,Non-Binary,White,Bachelors,10,Tech Lead,San Francisco,176686.56869790275
+680,Female,Asian,Masters,10,Software Engineer,Boston,126233.67259243099
+681,Female,White,Bachelors,17,Senior Engineer,Boston,126028.83033303697
+682,Male,Other,Masters,22,Software Engineer,New York,67037.46659036046
+683,Male,Asian,Bachelors,21,Software Engineer,Seattle,168510.9379745628
+684,Female,Black,Bachelors,17,Senior Engineer,Seattle,204412.13572190245
+685,Female,White,Bachelors,23,Software Engineer,San Francisco,83074.54668939875
+686,Male,Black,Bachelors,22,Software Engineer,New York,151794.37701658497
+687,Male,Hispanic,Bachelors,10,Principal Engineer,San Francisco,173123.67367971665
+688,Male,Asian,Bachelors,20,Senior Engineer,Austin,84246.39485314908
+689,Female,Asian,Bachelors,11,Senior Engineer,Boston,118339.65652281634
+690,Male,Black,Bachelors,4,Software Engineer,San Francisco,172733.00404452108
+691,Male,White,Masters,22,Software Engineer,Boston,346084.08767189155
+692,Male,Asian,Masters,8,Tech Lead,New York,183536.74807923564
+693,Male,White,Bachelors,24,Software Engineer,Austin,158594.30185875835
+694,Male,White,Bachelors,8,Senior Engineer,New York,113083.21092228389
+695,Male,White,Bootcamp,21,Software Engineer,Austin,182417.3997302531
+696,Male,White,Masters,9,Senior Engineer,Austin,187570.40791684878
+697,Male,White,Masters,21,Software Engineer,Boston,329420.62382187555
+698,Male,White,Bachelors,18,Tech Lead,New York,229651.18418721875
+699,Male,Hispanic,Masters,0,Tech Lead,New York,140901.6738321529
+700,Male,Asian,Masters,6,Tech Lead,San Francisco,149193.71271980906
+701,Male,Hispanic,Masters,3,Software Engineer,New York,263788.2338283096
+702,Male,White,Bootcamp,0,Tech Lead,San Francisco,124918.0595998892
+703,Male,White,Bachelors,14,Senior Engineer,Seattle,141911.17700159657
+704,Male,Asian,Bachelors,7,Software Engineer,Seattle,137046.18787362936
+705,Male,White,Masters,11,Senior Engineer,Seattle,143277.98925495776
+706,Non-Binary,White,Masters,21,Software Engineer,New York,80748.14167242298
+707,Male,Asian,Bachelors,21,Software Engineer,New York,210888.63347003807
+708,Female,White,Bachelors,17,Senior Engineer,San Francisco,222653.3996085394
+709,Male,Asian,Bachelors,14,Software Engineer,Austin,100938.26318426484
+710,Female,Asian,Bachelors,16,Senior Engineer,San Francisco,153045.61036847412
+711,Female,White,Masters,13,Software Engineer,Seattle,134232.32411898804
+712,Male,White,Masters,13,Tech Lead,San Francisco,216828.6536137023
+713,Male,Black,Bachelors,17,Principal Engineer,Austin,173393.44390037717
+714,Male,Asian,Bachelors,19,Tech Lead,New York,124341.42577693098
+715,Male,White,Bachelors,17,Software Engineer,San Francisco,136756.00175807698
+716,Female,Other,Bachelors,15,Software Engineer,Seattle,117199.63782988393
+717,Female,White,Masters,0,Senior Engineer,Seattle,156722.13144922483
+718,Non-Binary,Asian,Bootcamp,22,Software Engineer,New York,213519.49271280842
+719,Male,Other,Masters,10,Software Engineer,San Francisco,165436.0472629955
+720,Female,White,Bachelors,14,Senior Engineer,Austin,189298.76232527324
+721,Female,White,PhD,11,Senior Engineer,New York,162233.08760859846
+722,Male,White,Masters,7,Principal Engineer,San Francisco,153343.46314849693
+723,Male,White,Masters,21,Software Engineer,Boston,228152.0217633953
+724,Female,White,Bachelors,19,Software Engineer,Seattle,171542.98002969727
+725,Male,Asian,Bachelors,5,Software Engineer,Austin,118837.15464615745
+726,Female,White,Bachelors,2,Principal Engineer,Austin,108711.03101118549
+727,Male,Asian,Bachelors,23,Tech Lead,Austin,242717.2510362787
+728,Female,Other,Bachelors,12,Tech Lead,Seattle,143212.4346876657
+729,Male,Black,Bachelors,12,Principal Engineer,San Francisco,164945.54240667223
+730,Male,Asian,Bachelors,1,Senior Engineer,New York,138870.16862127656
+731,Male,White,Masters,4,Senior Engineer,San Francisco,180321.52219157666
+732,Female,Asian,Bachelors,16,Software Engineer,New York,148596.87900554828
+733,Female,Asian,Bachelors,5,Senior Engineer,Austin,103394.64050118328
+734,Male,White,Bootcamp,1,Senior Engineer,San Francisco,116501.7438696185
+735,Male,White,PhD,3,Senior Engineer,Austin,98346.73254347265
+736,Female,Hispanic,Masters,21,Principal Engineer,Boston,181145.66119541458
+737,Male,White,Bootcamp,10,Principal Engineer,Austin,53648.247218169454
+738,Female,White,Masters,7,Tech Lead,Austin,82470.4612003768
+739,Male,White,Bootcamp,11,Tech Lead,New York,78061.66614744593
+740,Male,White,Bachelors,7,Senior Engineer,Boston,183218.86825104576
+741,Male,Black,Bachelors,10,Software Engineer,Austin,156545.29082280368
+742,Male,Asian,Bachelors,21,Software Engineer,Austin,133885.80276472121
+743,Female,Black,Bachelors,19,Senior Engineer,Boston,179799.8290493348
+744,Male,White,Bachelors,7,Senior Engineer,Boston,181088.1576010046
+745,Male,White,Masters,7,Software Engineer,San Francisco,188206.7295413721
+746,Female,Asian,Masters,16,Principal Engineer,New York,165413.79171329326
+747,Male,White,Masters,19,Software Engineer,Boston,229252.637686685
+748,Male,White,Bachelors,19,Software Engineer,Boston,230860.48671102268
+749,Female,Black,Masters,22,Senior Engineer,Seattle,171875.3472455007
+750,Male,White,Masters,15,Software Engineer,Boston,201594.0928359727
+751,Male,Asian,Bachelors,13,Software Engineer,New York,156075.05003991182
+752,Female,White,Masters,10,Software Engineer,Austin,90982.55415725561
+753,Male,White,Bachelors,6,Tech Lead,Austin,174046.51359480826
+754,Male,White,Bachelors,15,Senior Engineer,Austin,263491.32612723944
+755,Male,Other,PhD,12,Senior Engineer,Austin,159436.4743166993
+756,Female,Black,Bachelors,14,Senior Engineer,Seattle,179698.65130523287
+757,Male,Hispanic,Bachelors,23,Software Engineer,Boston,160110.91536608685
+758,Male,Asian,PhD,15,Principal Engineer,Austin,224720.33744481535
+759,Female,White,Masters,20,Software Engineer,San Francisco,258435.93588621626
+760,Female,Asian,Bachelors,22,Principal Engineer,Austin,147289.81774835195
+761,Male,Asian,Bachelors,23,Senior Engineer,Boston,202055.39879033202
+762,Male,Black,Bachelors,8,Principal Engineer,Austin,81784.08852989954
+763,Male,White,Masters,2,Software Engineer,Seattle,121990.04714188632
+764,Female,Asian,Bachelors,18,Senior Engineer,New York,82220.68591503229
+765,Male,White,Bachelors,19,Software Engineer,New York,208614.2894461124
+766,Male,White,Bootcamp,4,Software Engineer,Boston,146108.7197826957
+767,Female,Asian,Masters,9,Senior Engineer,New York,140716.70732816518
+768,Female,Asian,Bachelors,16,Software Engineer,New York,161749.37414427134
+769,Male,White,Masters,14,Senior Engineer,San Francisco,180002.46499728056
+770,Female,White,Masters,22,Software Engineer,Boston,230767.37813808458
+771,Male,Asian,Bachelors,24,Software Engineer,Boston,213080.23585246026
+772,Female,Black,Bachelors,7,Tech Lead,New York,62152.35715668117
+773,Male,Hispanic,Masters,14,Senior Engineer,New York,242009.66027836723
+774,Male,Hispanic,Bachelors,20,Senior Engineer,New York,173301.94586000865
+775,Female,Black,Masters,13,Senior Engineer,Seattle,111264.10958947084
+776,Male,White,Bachelors,19,Tech Lead,Austin,167726.20990259745
+777,Male,Asian,Bachelors,6,Software Engineer,Seattle,74266.73444145604
+778,Female,White,Bachelors,20,Senior Engineer,Boston,112204.51610144704
+779,Female,White,Bachelors,22,Principal Engineer,San Francisco,175371.0569961844
+780,Male,Black,Bachelors,11,Senior Engineer,Austin,168645.7962849886
+781,Female,White,Bachelors,16,Senior Engineer,San Francisco,162525.00160479004
+782,Male,Hispanic,Masters,16,Senior Engineer,Boston,204403.89584800418
+783,Male,Asian,Bootcamp,9,Senior Engineer,Boston,113401.65491614472
+784,Male,Asian,Masters,18,Senior Engineer,San Francisco,209626.58592046017
+785,Male,Asian,PhD,13,Software Engineer,San Francisco,185710.56182784148
+786,Female,Hispanic,Bachelors,10,Software Engineer,San Francisco,78705.34002380766
+787,Male,Asian,Bootcamp,1,Tech Lead,Boston,89759.13909999553
+788,Male,Asian,Bachelors,17,Software Engineer,New York,221496.2177719568
+789,Male,White,Bootcamp,6,Senior Engineer,San Francisco,178043.05168447053
+790,Female,Asian,Bootcamp,11,Software Engineer,Austin,141973.19380915683
+791,Male,White,Masters,1,Senior Engineer,Boston,196995.29993686543
+792,Male,Asian,Bootcamp,19,Software Engineer,Seattle,173179.62318362086
+793,Male,Asian,Masters,17,Software Engineer,Seattle,299149.08213257877
+794,Male,Asian,Bachelors,5,Principal Engineer,Austin,208879.851191336
+795,Male,White,Bachelors,23,Tech Lead,New York,114913.09644956527
+796,Female,White,Masters,9,Senior Engineer,San Francisco,157220.01986422128
+797,Female,Asian,Bachelors,19,Senior Engineer,Boston,163600.23262011973
+798,Male,White,Masters,14,Senior Engineer,San Francisco,175183.15407453498
+799,Female,White,Bootcamp,4,Senior Engineer,Boston,115460.19699264326
+800,Female,White,Bachelors,19,Senior Engineer,Seattle,161786.44212307752
+801,Female,Hispanic,Masters,2,Software Engineer,San Francisco,101476.93803407354
+802,Male,Asian,PhD,4,Senior Engineer,Austin,166882.5855884468
+803,Male,White,PhD,24,Tech Lead,New York,335696.35036926105
+804,Male,White,Bootcamp,7,Principal Engineer,Austin,136643.519625157
+805,Male,White,Masters,7,Software Engineer,New York,193152.22596595224
+806,Female,Black,Bootcamp,7,Senior Engineer,San Francisco,103384.37393179977
+807,Female,Asian,Masters,11,Senior Engineer,San Francisco,173640.51353993578
+808,Female,White,Bachelors,23,Senior Engineer,New York,120268.89980882737
+809,Male,White,Bachelors,22,Software Engineer,Seattle,174313.9191288943
+810,Male,White,Masters,7,Senior Engineer,Boston,162694.09893541533
+811,Non-Binary,Asian,Bachelors,10,Software Engineer,Austin,95600.60918600854
+812,Female,Black,Masters,13,Software Engineer,Austin,129205.91365869294
+813,Male,White,Masters,7,Senior Engineer,Austin,180050.85077911709
+814,Female,White,Bachelors,23,Senior Engineer,San Francisco,177975.10643243275
+815,Female,White,Masters,9,Senior Engineer,Austin,179002.2659191709
+816,Male,Hispanic,Masters,6,Principal Engineer,Boston,138393.19644968194
+817,Male,White,Bachelors,16,Software Engineer,Boston,180157.53883463272
+818,Male,Black,Bachelors,3,Software Engineer,New York,108829.93566409881
+819,Male,Asian,Bachelors,12,Senior Engineer,San Francisco,192010.0448036605
+820,Male,White,Bachelors,3,Software Engineer,Boston,169737.3979940256
+821,Female,White,PhD,4,Software Engineer,Seattle,160054.6963329251
+822,Male,White,Bachelors,21,Software Engineer,San Francisco,247492.4001099249
+823,Male,Asian,Masters,3,Software Engineer,San Francisco,151642.15734389803
+824,Male,Black,Bachelors,17,Tech Lead,Boston,217693.40072528145
+825,Male,Asian,Bachelors,5,Software Engineer,Seattle,140601.91212012985
+826,Female,Asian,Masters,23,Senior Engineer,New York,147442.33371605925
+827,Male,White,Masters,23,Software Engineer,Boston,247605.09056807222
+828,Male,Hispanic,Bachelors,22,Senior Engineer,Seattle,149634.2246492326
+829,Female,Black,Bachelors,21,Software Engineer,San Francisco,263485.89487196173
+830,Male,White,Bachelors,1,Senior Engineer,Seattle,113276.67589384217
+831,Male,Other,Bachelors,22,Senior Engineer,San Francisco,231322.88520136004
+832,Male,Asian,Masters,10,Software Engineer,Boston,178843.26710427707
+833,Male,Asian,Bachelors,13,Senior Engineer,Boston,115358.32021770274
+834,Male,Asian,Bachelors,4,Software Engineer,Austin,70609.62618983041
+835,Male,Black,Bachelors,5,Senior Engineer,Austin,163840.98145005753
+836,Male,Asian,PhD,9,Software Engineer,Austin,264287.3616374717
+837,Female,White,Bootcamp,7,Principal Engineer,Boston,90672.86845262194
+838,Male,White,Bachelors,13,Software Engineer,New York,97715.9219343651
+839,Male,Hispanic,Masters,23,Senior Engineer,Boston,214261.38688615715
+840,Male,White,Bachelors,2,Software Engineer,Seattle,97399.67796140828
+841,Male,White,Bachelors,11,Software Engineer,Boston,133652.4043735025
+842,Female,White,Masters,15,Senior Engineer,Boston,196038.85267944378
+843,Male,White,PhD,22,Principal Engineer,San Francisco,245858.67529917334
+844,Non-Binary,Asian,Bootcamp,16,Software Engineer,San Francisco,114023.5901523671
+845,Male,Hispanic,Masters,0,Software Engineer,San Francisco,158303.2771260112
+846,Male,White,Bachelors,22,Software Engineer,Boston,232410.2427847744
+847,Male,White,Masters,9,Software Engineer,New York,160491.82624895472
+848,Non-Binary,White,Bachelors,24,Software Engineer,Seattle,192164.84323143473
+849,Male,Hispanic,Masters,22,Senior Engineer,Seattle,258889.14284381826
+850,Male,Asian,Bachelors,9,Software Engineer,New York,168634.52929046744
+851,Male,White,Masters,20,Software Engineer,New York,223041.8976004974
+852,Female,Black,Bachelors,23,Senior Engineer,Seattle,234117.2987649191
+853,Male,Black,Bachelors,1,Software Engineer,Austin,141604.83712216924
+854,Female,Black,PhD,8,Software Engineer,San Francisco,140286.91187292713
+855,Male,Hispanic,Bachelors,21,Software Engineer,San Francisco,173855.68258952355
+856,Male,White,Masters,12,Senior Engineer,Seattle,161494.58845158725
+857,Male,Black,Bachelors,24,Software Engineer,New York,239017.44087695505
+858,Male,Asian,Bachelors,15,Senior Engineer,Austin,146910.48113991704
+859,Male,Black,Bachelors,17,Software Engineer,Seattle,161952.07125911285
+860,Male,Asian,Bachelors,18,Senior Engineer,San Francisco,233680.63433095053
+861,Female,Black,PhD,11,Software Engineer,Boston,177698.99749189438
+862,Male,Asian,Bachelors,7,Senior Engineer,New York,188706.7343644991
+863,Male,White,Bootcamp,16,Tech Lead,Boston,191730.47253915961
+864,Male,Asian,Masters,14,Senior Engineer,Seattle,138314.84709385756
+865,Male,Other,Bachelors,9,Software Engineer,San Francisco,148508.73048102928
+866,Male,Hispanic,Masters,14,Software Engineer,Austin,244457.60346805886
+867,Male,White,Masters,14,Software Engineer,Boston,136085.5945682519
+868,Male,White,Masters,22,Software Engineer,Austin,253116.83868194136
+869,Female,White,Bachelors,6,Software Engineer,San Francisco,119179.3745064048
+870,Female,Asian,Bachelors,12,Tech Lead,Boston,77863.9264231956
+871,Male,Black,PhD,16,Software Engineer,Austin,228641.09140080083
+872,Male,White,PhD,8,Senior Engineer,Austin,147057.73725011622
+873,Male,Asian,PhD,7,Senior Engineer,Boston,128517.80038646718
+874,Male,Black,Bachelors,19,Senior Engineer,San Francisco,188830.525831246
+875,Male,Asian,Masters,20,Software Engineer,Austin,114216.91775323403
+876,Male,Asian,Bachelors,17,Tech Lead,Seattle,150654.6497459048
+877,Female,Asian,Bachelors,12,Software Engineer,Boston,227194.7230767918
+878,Female,Asian,Bachelors,15,Senior Engineer,New York,171941.9729962217
+879,Male,White,Masters,8,Tech Lead,New York,133412.64251416063
+880,Male,Asian,Bachelors,11,Senior Engineer,San Francisco,215626.2210100058
+881,Male,Asian,Bachelors,11,Senior Engineer,Seattle,120017.46192499236
+882,Female,Hispanic,PhD,5,Software Engineer,Austin,126328.61204287782
+883,Male,Asian,Bachelors,18,Software Engineer,New York,131723.06486126687
+884,Male,Black,Bachelors,6,Senior Engineer,San Francisco,150665.22770477715
+885,Female,White,Bachelors,24,Software Engineer,Seattle,235468.09522518003
+886,Male,Asian,PhD,2,Tech Lead,Seattle,119289.50225574571
+887,Female,White,Masters,15,Software Engineer,San Francisco,82472.38649556876
+888,Male,White,Bachelors,17,Software Engineer,San Francisco,230620.7903557297
+889,Male,Asian,Masters,15,Software Engineer,Austin,277828.87006691116
+890,Male,Other,Masters,22,Software Engineer,San Francisco,114821.74168842821
+891,Female,White,Bachelors,6,Senior Engineer,Austin,134203.0351341235
+892,Female,White,Masters,3,Senior Engineer,Austin,135097.07370135112
+893,Female,Black,Masters,24,Senior Engineer,Boston,162036.5330967665
+894,Male,White,Masters,7,Tech Lead,Seattle,108772.62269489285
+895,Female,Asian,Bachelors,12,Tech Lead,Seattle,173113.90198008652
+896,Male,Asian,PhD,12,Tech Lead,Seattle,213132.59710431696
+897,Male,Asian,Masters,16,Software Engineer,Boston,217231.01491620837
+898,Female,White,Bachelors,16,Senior Engineer,Austin,127494.42462407499
+899,Male,White,Bachelors,4,Software Engineer,Austin,107455.85073048143
+900,Male,Black,Bachelors,5,Software Engineer,San Francisco,53303.41282604884
+901,Male,Asian,Bachelors,18,Senior Engineer,Boston,174265.10502393858
+902,Male,White,Masters,12,Software Engineer,San Francisco,255189.73372399213
+903,Male,Black,Bachelors,24,Software Engineer,Boston,160462.87192548945
+904,Male,White,Bachelors,13,Software Engineer,San Francisco,103315.30724907694
+905,Male,Asian,Masters,21,Software Engineer,New York,249439.59689470948
+906,Female,White,Bachelors,3,Principal Engineer,Seattle,128415.12355681593
+907,Female,Hispanic,Bootcamp,6,Software Engineer,Seattle,92457.08067879306
+908,Male,White,Bachelors,7,Software Engineer,Austin,132539.849931403
+909,Male,White,Bachelors,24,Senior Engineer,New York,220017.40084848795
+910,Male,White,Bachelors,12,Software Engineer,Seattle,156853.58167992346
+911,Male,White,Bachelors,5,Principal Engineer,Austin,172504.46208351234
+912,Male,Hispanic,Bachelors,5,Software Engineer,New York,222084.86886938554
+913,Male,Other,Masters,23,Senior Engineer,Seattle,133567.21891462043
+914,Male,White,Bootcamp,20,Senior Engineer,San Francisco,225925.42164010476
+915,Male,White,Bachelors,2,Principal Engineer,Boston,130547.25849254202
+916,Male,Asian,Masters,2,Senior Engineer,New York,197046.50833389667
+917,Male,Hispanic,Masters,12,Tech Lead,Austin,221666.71366858564
+918,Female,Asian,Masters,21,Software Engineer,New York,194122.26349581202
+919,Female,White,Bachelors,1,Software Engineer,Austin,125022.00258321375
+920,Male,White,Bachelors,15,Software Engineer,New York,156854.2239534613
+921,Female,Asian,Bachelors,21,Tech Lead,Austin,134076.1613902117
+922,Male,White,Masters,5,Software Engineer,Seattle,190870.99411136445
+923,Female,Asian,Masters,7,Software Engineer,San Francisco,111973.48256948982
+924,Female,White,Bachelors,22,Software Engineer,Seattle,196511.63180418752
+925,Male,Black,Bachelors,7,Software Engineer,San Francisco,146316.1372660762
+926,Male,White,PhD,24,Software Engineer,Seattle,107751.01350259384
+927,Male,Asian,Masters,5,Principal Engineer,Seattle,135911.37627788284
+928,Male,Asian,Bootcamp,13,Senior Engineer,New York,162686.4774592741
+929,Male,Asian,Masters,2,Senior Engineer,Boston,131432.55572086642
+930,Male,White,Bachelors,9,Senior Engineer,Austin,55369.50654186075
+931,Male,Asian,Masters,2,Software Engineer,Austin,194579.8321746027
+932,Female,Asian,Masters,11,Software Engineer,Austin,162615.0080934582
+933,Non-Binary,Asian,Bachelors,16,Software Engineer,San Francisco,177571.82207914145
+934,Male,Asian,Masters,4,Software Engineer,Austin,136272.60947983264
+935,Male,Asian,Masters,19,Senior Engineer,Austin,245448.13895846365
+936,Male,Black,Bachelors,24,Software Engineer,New York,301076.71946067386
+937,Male,White,Masters,8,Software Engineer,Seattle,139673.5777604216
+938,Female,Black,Masters,20,Senior Engineer,Austin,265896.23613535374
+939,Male,Asian,Bootcamp,19,Principal Engineer,Boston,186455.13075316214
+940,Male,White,Bachelors,6,Tech Lead,Austin,110822.08071949502
+941,Male,White,Bachelors,21,Tech Lead,San Francisco,303785.90217820025
+942,Male,White,Masters,3,Tech Lead,San Francisco,165147.6312210233
+943,Female,Black,Bachelors,12,Software Engineer,San Francisco,162180.28023304907
+944,Female,Asian,Masters,12,Tech Lead,Austin,148785.69935928742
+945,Male,Black,Masters,9,Software Engineer,New York,140368.94803488717
+946,Male,Asian,Bachelors,17,Senior Engineer,Boston,188801.93998381324
+947,Male,White,Masters,16,Senior Engineer,Austin,284989.53772105876
+948,Female,White,Masters,19,Software Engineer,New York,169904.1848320178
+949,Female,White,Bachelors,19,Tech Lead,New York,159069.01388343936
+950,Male,White,PhD,12,Principal Engineer,Austin,278272.7520709588
+951,Male,White,Masters,16,Software Engineer,Austin,188905.31125323547
+952,Female,White,Masters,21,Tech Lead,New York,215590.0801048061
+953,Male,Asian,Masters,3,Software Engineer,New York,183412.76580594634
+954,Female,Asian,Bachelors,0,Senior Engineer,New York,96982.08580363693
+955,Male,Other,PhD,0,Senior Engineer,Austin,161618.9097449971
+956,Male,Hispanic,Masters,14,Senior Engineer,New York,228347.42507860065
+957,Male,Asian,Masters,12,Principal Engineer,San Francisco,168869.05911890953
+958,Male,White,PhD,16,Tech Lead,Austin,267274.96665694466
+959,Male,Asian,Bachelors,23,Tech Lead,San Francisco,175067.80556880924
+960,Female,Black,Masters,7,Software Engineer,Seattle,117978.69866385013
+961,Male,White,Bachelors,17,Principal Engineer,Austin,112025.03994483332
+962,Male,White,Bachelors,12,Software Engineer,Seattle,142658.7363688368
+963,Male,Black,Bachelors,22,Tech Lead,New York,158587.96544686297
+964,Male,White,Bootcamp,13,Software Engineer,New York,135075.2004217508
+965,Male,Asian,PhD,7,Software Engineer,Boston,209269.1656731199
+966,Male,Asian,Masters,7,Senior Engineer,New York,94941.72829285632
+967,Female,White,Masters,14,Software Engineer,Seattle,84337.74194305093
+968,Male,White,Masters,12,Software Engineer,New York,152533.2031547218
+969,Male,White,PhD,6,Software Engineer,Austin,197409.44934120958
+970,Male,White,Bachelors,4,Software Engineer,New York,144105.86221986148
+971,Female,White,Bachelors,16,Software Engineer,Boston,122086.54755594165
+972,Female,Black,Bachelors,24,Software Engineer,New York,226730.2450623824
+973,Female,White,Masters,15,Senior Engineer,Seattle,142088.58654634922
+974,Male,Asian,Masters,22,Software Engineer,Seattle,255564.7397855005
+975,Male,White,Bachelors,1,Senior Engineer,New York,112389.90247919409
+976,Male,Hispanic,Bachelors,21,Software Engineer,Seattle,153116.83643641023
+977,Male,White,Masters,17,Principal Engineer,Seattle,176859.04567316262
+978,Male,White,Bachelors,16,Tech Lead,Boston,210189.61708572195
+979,Male,Hispanic,Masters,6,Software Engineer,Austin,177537.33365876155
+980,Male,Black,Bootcamp,12,Tech Lead,Boston,182428.72981387464
+981,Male,White,Bachelors,17,Tech Lead,San Francisco,197552.6695389298
+982,Female,Black,Bachelors,13,Principal Engineer,Boston,84672.0983777898
+983,Male,Asian,Masters,17,Senior Engineer,New York,318530.4407933165
+984,Male,Asian,Masters,12,Software Engineer,Austin,205282.9301396233
+985,Female,White,Masters,10,Senior Engineer,New York,172110.56633216533
+986,Male,White,Bootcamp,20,Senior Engineer,San Francisco,156520.6122457486
+987,Female,Asian,Bachelors,20,Senior Engineer,Austin,208617.6743666689
+988,Male,Asian,Masters,15,Software Engineer,Seattle,145417.2942809789
+989,Male,White,Masters,22,Tech Lead,Boston,264004.91127778817
+990,Female,Asian,PhD,16,Principal Engineer,New York,90593.29990999591
+991,Female,Black,Bachelors,7,Software Engineer,San Francisco,144315.2689262599
+992,Female,White,Masters,18,Software Engineer,Seattle,131888.96363515753
+993,Male,Asian,Masters,19,Software Engineer,Boston,231663.4081989352
+994,Male,White,Bachelors,14,Tech Lead,Seattle,228222.70388338703
+995,Male,Black,Bachelors,8,Senior Engineer,Boston,179405.08633141633
+996,Male,Asian,PhD,19,Senior Engineer,Austin,307585.4708281714
+997,Female,Hispanic,Bachelors,9,Senior Engineer,Seattle,165838.67684753428
+998,Male,White,Bachelors,11,Senior Engineer,Seattle,138681.11855789585
+999,Non-Binary,White,Bachelors,20,Software Engineer,Seattle,198647.86350849931
+1000,Male,White,PhD,22,Senior Engineer,Austin,141623.92322762232
