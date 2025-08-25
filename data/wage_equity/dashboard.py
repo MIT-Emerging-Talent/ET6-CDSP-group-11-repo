@@ -105,5 +105,5 @@ if __name__ == "__main__":
     try:
         df = generate_wage_data()
         print("Data generation completed successfully!")
-    except Exception as e:
+    except (OSError, ValueError) as e:
         print(f"Error generating data: {str(e)}")
