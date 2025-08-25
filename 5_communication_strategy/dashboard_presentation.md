@@ -2,42 +2,80 @@
 
 ## Overview
 
-This section presents our wage equity analysis dashboard, designed to effectively
-communicate our findings to stakeholders.
+We utilized Looker Studio to create an interactive dashboard that effectively
+communicates our wage equity analysis findings to stakeholders. Looker Studio
+was chosen for its robust visualization capabilities and ease of data updating.
 
 ## Dashboard Components
 
-- Final Dashboard PDF: [../../docs/wage_equity_dashboard.pdf](../../docs/wage_equity_dashboard.pdf)
-- Dashboard Documentation: [../../docs/DASHBOARD_README.md](../../docs/DASHBOARD_README.md)
-- Data Source: [../../data/wage_equity/dashboard.py](../../data/wage_equity/dashboard.py)
+- Final Dashboard PDF: [Dashboard.pdf](../../Dashboard.pdf)
+- Interactive Looker Studio Dashboard: [Link to be added]
+- Data Source: Generated from `data/wage_equity/dashboard.py`
+
+## Looker Studio Implementation
+
+1. **Interactive Features**
+   - Dynamic filters for demographics
+   - Drill-down capabilities
+   - Real-time data updates
+   - Cross-filtering between visualizations
+
+2. **Visualization Types**
+   - Scorecards for key metrics
+   - Bar charts for salary distributions
+   - Geographic maps for location analysis
+   - Pie charts for demographic breakdowns
+   - Time series for experience analysis
+
+3. **Data Refresh Process**
+   - Generate new data using Python script
+   - Import CSV into Looker Studio
+   - Automatic refresh of visualizations
+   - Maintained data connections
 
 ## Communication Elements
 
-1. **Visual Clarity**
-   - Clear data visualizations
-   - Intuitive color schemes
-   - Consistent layout and formatting
+1. **Dashboard Organization**
+   - Top-level metrics in scorecards
+   - Demographic analysis section
+   - Geographic distribution views
+   - Detailed salary breakdowns
+   - Experience and education insights
 
-2. **Key Insights**
+2. **Key Insights Presentation**
    - Salary distribution patterns
    - Geographic workforce distribution
    - Educational background analysis
    - Experience level metrics
    - Demographic representation
 
-3. **Stakeholder Focus**
-   - Executive summary metrics
-   - Detailed breakdowns for HR teams
-   - Compliance-relevant statistics
-   - Action-oriented insights
+3. **Stakeholder Benefits**
+   - Executive summary metrics for quick insights
+   - Detailed HR analytics for workforce planning
+   - Compliance and equity tracking
+   - Data-driven decision support
 
 ## Presentation Guidelines
 
-- Start with high-level metrics
-- Drill down into specific demographics
-- Highlight key patterns and trends
-- Present actionable insights
-- Include context for interpretation
+1. **Navigation Flow**
+   - Begin with executive summary metrics
+   - Progress to demographic analysis
+   - Show geographic distribution
+   - Deep dive into salary patterns
+   - Conclude with actionable insights
 
-For detailed technical information, please refer to the 
-[Dashboard Documentation](../../docs/DASHBOARD_README.md).
+2. **Interactive Demo Tips**
+   - Demonstrate filter usage
+   - Show cross-filtering capabilities
+   - Highlight data drill-down features
+   - Explain refresh mechanics
+
+## Maintenance and Updates
+
+- Regular data refreshes via Python script
+- Dashboard auto-updates when data changes
+- Version control through PDF exports
+- Documentation updates as needed
+
+For access to the interactive dashboard or technical details, please contact
+the project team.
